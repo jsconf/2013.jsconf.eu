@@ -1,0 +1,27 @@
+/* --------------- Screens bigger than 768px ----------- */
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 100%;
+  }
+  .top {
+    min-height: 500px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-size: auto;
+  }
+  .main {
+    margin-top: 500px;
+    position: relative;
+    z-index: 2;
+  }
+  aside {
+    float: right;
+    width: 30%;
+    min-width: 282px;
+  }
+  .main_column {
+    width: 60%;
+    min-width: 280px;
+  }
+}

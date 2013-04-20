@@ -1,0 +1,126 @@
+  body {
+    font-size: 87.5%;
+    margin: 0 auto;
+    line-height: 1.5;
+    color: $color_dark;
+  }
+
+
+  /* fonts */
+  body, input, textarea {
+    font-family: "rooney-web", Georgia, sans-serif;
+  }
+  h1, h2, h3, h4, h5, nav, button {
+    font-family: "p22-underground-sc", sans-serif;
+    font-weight: bold;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 0 2%;
+    min-width: 280px;
+    max-width: 1280px;
+  }
+
+  nav {
+    text-transform: uppercase;
+  }
+  .header, .sidebar {
+    color: #FFF;
+  }
+  .sidebar {
+    clear: both;
+    margin-bottom: 3em;
+  }
+
+
+  .logo {
+    margin: 1em 0;
+    text-align: right;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 282px;
+  }
+  .social_nav {
+    max-width: 180px;
+    float: right;
+    clear: both;
+    margin-bottom: 2em;
+  }
+  .social_nav ul {
+    list-style: none;
+  }
+  .top {
+    width: 100%;
+    overflow: hidden;
+    background: $color_dark url('/img/top_mandy.jpg') no-repeat 50% 0;
+    background-size: 100%;
+  }
+  .top:hover {
+    background: $color_dark url('/img/top_group.jpg') no-repeat 50% 0;
+  }
+  button {
+    width: 100%;
+    margin: 1em 0;
+    padding: .5em 0;
+    font-size: 2em;
+    background: $color_pink;
+    color: #FFF;
+    border: 0;
+    border-radius: .25em;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: bold;
+  }
+
+  p {
+    margin-bottom: 1.5;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: $color_pink;
+    text-decoration: none;
+  }
+
+  a:hover,
+  a:active,
+  a:focus {
+    color: $color_pink;
+    text-decoration: underline;
+  }
+  .ticket_info {
+    color: #FFF;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: .5em;
+    padding: .2em .2em .2em 0;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-weight: bold;
+  }
+
+  .main_column {
+    background: #FFF;
+    overflow: hidden;
+  }
+
+  section {
+    margin: 0 0 3em 0;
+    padding: 0 3%;
+  }
+
+
+  .article {
+    margin-bottom: 1.5em;
+  }
+
+  .date {
+    color: tint($color_dark, 50%);
+    font-size: .875em;
+    font-style: italic;
+  }
