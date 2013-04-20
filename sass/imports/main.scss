@@ -25,14 +25,16 @@
   nav {
     text-transform: uppercase;
   }
-  .header, .sidebar {
+  .header, .sidebar, footer {
     color: #FFF;
   }
   .sidebar {
     clear: both;
     margin-bottom: 3em;
   }
-
+  footer {
+    background: $color_dark;
+  }
 
   .logo {
     margin: 1em 0;
@@ -54,11 +56,8 @@
   .top {
     width: 100%;
     overflow: hidden;
-    background: $color_dark url('/img/top_mandy.jpg') no-repeat 50% 0;
-    background-size: 100%;
-  }
-  .top:hover {
     background: $color_dark url('/img/top_group.jpg') no-repeat 50% 0;
+    background-size: 100%;
   }
   button {
     width: 100%;
