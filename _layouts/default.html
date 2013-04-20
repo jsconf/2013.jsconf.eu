@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>jsconf.eu</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+    <title>{{ page.title }}</title>
     <meta charset="utf-8" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="canonical" href="http://2013.jsconf.eu{{ if page.url != '/index.html' }}{{ page.url }}{{ endif }}" />
+    <link rel="shortcut icon" href="favicon.ico" />
     <!--[if IE]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <style>
       article, aside, dialog, figure, footer, header,
@@ -17,16 +17,10 @@
 
     <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="stylesheets/print.css" type="text/css" media="print" />
-    <!--[if lt IE 8]>
-      <link rel="stylesheet" href="stylesheets/ie.css" type="text/css" media="screen, projection" />
-    <![endif]-->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
-    <link rel="shortcut icon" href="favicon.ico" />
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/xnk7rre.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    <script src="js/make-the-website-load-slower.js" async></script>
   </head>
   <body>
 

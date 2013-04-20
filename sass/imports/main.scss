@@ -56,9 +56,16 @@
   .top {
     width: 100%;
     overflow: hidden;
-    background: $color_dark url('/img/top_group.jpg') no-repeat 50% 0;
+    background: $color_dark no-repeat 50% 0;
     background-size: 100%;
   }
+  .background1 .top {
+    background: url('/img/top_group.jpg')
+  }
+  .background0 .top {
+    background: url('/img/top_mandy.jpg')
+  }
+
   button {
     width: 100%;
     margin: 1em 0;
