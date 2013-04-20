@@ -4,4 +4,5 @@
 Run:
 
 jekyll --auto --server
+
 compass watch
