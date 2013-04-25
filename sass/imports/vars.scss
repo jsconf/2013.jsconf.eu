@@ -1,3 +1,9 @@
 /* Colors */
 $color_pink: #E10079;  /* main jsconfeu pink */
 $color_dark: #012019; /* almost black */
+
+
+@mixin uppercase {
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
