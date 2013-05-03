@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   line-height: 1.5;
   color: $color_dark;
+  background-color: $color_l_beige;
 }
 
 
@@ -15,6 +16,17 @@ h1, h2, h3, h4, h5, nav, button {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: .5em 0;
+}
+
+
 .container {
   margin: 0 auto;
   padding: 0 2%;
@@ -22,18 +34,49 @@ h1, h2, h3, h4, h5, nav, button {
   max-width: 1280px;
 }
 
-nav {
+.header {
+  overflow: hidden;
+  padding: 2em 0;
+  background-color: $color_l_beige;
+  color: $color_d_red;
+}
+
+.social_nav {
+  float: left;
+  clear: both;
+  list-style: none;
+  font-size: .75em;
+}
+.tickets {
+  float: right;
+  overflow: hidden;
+}
+.ticket_info {
+  float: left;
+  text-align: right;
+  i {
+    display: block;
+    font-size: .75em;
+  }
+}
+button {
+  float: right;
+  margin: 0 0 0 .5em;
+  padding: .75em 1em .5em;
+  font-size: 1.5em;
+  background: $color_pink;
+  color: #FFF;
+  border: 0;
+  border-radius: .25em;
+  font-weight: bold;
   @include uppercase;
 }
-.header, .sidebar, footer {
-  color: #FFF;
-}
-.sidebar {
-  clear: both;
-  margin-bottom: 3em;
-}
-footer {
-  background: $color_dark;
+
+/* stage */
+
+.stage {
+  border-top: 1em solid $color_beige;
+  border-bottom: 1em solid $color_beige;
 }
 
 .logo {
@@ -44,15 +87,7 @@ footer {
   width: 100%;
   max-width: 282px;
 }
-.social_nav {
-  max-width: 180px;
-  float: right;
-  clear: both;
-  margin-bottom: 2em;
-}
-.social_nav ul {
-  list-style: none;
-}
+
 .top {
   width: 100%;
   overflow: hidden;
@@ -66,21 +101,31 @@ footer {
   background: url('/img/top_mandy.jpg')
 }
 
-button {
-  width: 100%;
-  margin: 1em 0;
-  padding: .5em 0;
-  font-size: 2em;
-  background: $color_pink;
-  color: #FFF;
-  border: 0;
-  border-radius: .25em;
-  font-weight: bold;
+
+/* main content area */
+nav {
   @include uppercase;
 }
 
+/* sponsors */
+.sponsors {
+  padding: 2em 0;
+  border-top: 1px solid $color_beige;
+  background: #FFF;
+}
+
+/* footer */
+footer {
+  padding: 2em 0;
+  border-top: .5em solid $color_mint;
+  background: $color_d_red;
+  color: #FFF;
+  text-align: right;
+}
+
+/* typography */
 p {
-  margin-bottom: 1.5;
+  margin-bottom: 1.5em;
 }
 
 a,
@@ -96,19 +141,25 @@ a:focus {
   color: $color_pink;
   text-decoration: underline;
 }
-.ticket_info {
-  color: #FFF;
+
+
+nav ul {
+  margin: 1em 0;
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: .2em;
+    @include uppercase;
+    font-weight: bold;
+  }
 }
 
-nav ul li {
-  display: inline-block;
-  margin-right: .5em;
-  padding: .2em .2em .2em 0;
-  @include uppercase;
-  font-weight: bold;
+.main {
+  padding: 3em 0;
 }
 
 .main_column {
+  margin: 0 auto;
   background: #FFF;
   overflow: hidden;
 }
@@ -119,9 +170,32 @@ section {
 }
 
 
-.article {
+article {
   margin-bottom: 1.5em;
+  header {
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: .1875em solid $color_mint;
+  }
 }
+
+/* fluid video iframes */
+.video_container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video_container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .date {
   color: tint($color_dark, 50%);
@@ -141,6 +215,7 @@ section {
 
 
 .testcircle {
+  display: none;
   @include rotated-text;
   @include uppercase;
   color: #FFF;
