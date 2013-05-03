@@ -16,7 +16,6 @@
 
 
     <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen, projection" />
-    <link rel="stylesheet" href="stylesheets/print.css" type="text/css" media="print" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="//use.typekit.net/xnk7rre.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -24,60 +23,12 @@
   </head>
   <body>
 
+
     <div class="top">
-      <div class="container">
 
-        <div class="testcircle">
-          <span class="char1">j</span>
-          <span class="char2">s</span>
-          <span class="char3">c</span>
-          <span class="char4">o</span>
-          <span class="char5">n</span>
-          <span class="char6">f</span>
-          <span class="char7">.</span>
-          <span class="char8">e</span>
-          <span class="char9">u</span>
-          <span class="char10">&nbsp;</span>
-          <span class="char11">B</span>
-          <span class="char12">e</span>
-          <span class="char13">r</span>
-          <span class="char14">l</span>
-          <span class="char15">i</span>
-          <span class="char16">n</span>
-          <span class="char17">&nbsp;</span>
-          <span class="char18">s</span>
-          <span class="char19">e</span>
-          <span class="char20">p</span>
-          <span class="char21">t</span>
-          <span class="char22">e</span>
-          <span class="char23">m</span>
-          <span class="char24">b</span>
-          <span class="char25">e</span>
-          <span class="char26">r</span>
-          <span class="char27">&nbsp;</span>
-          <span class="char28">1</span>
-          <span class="char29">5</span>
-          <span class="char30">+</span>
-          <span class="char31">1</span>
-          <span class="char32">6</span>
-          <span class="char33">&nbsp;</span>
-          <span class="char34">2</span>
-          <span class="char35">0</span>
-          <span class="char36">1</span>
-          <span class="char37">3</span>
-          <span class="char38">&nbsp;</span>
-          
-          
-          
-          
-          
-          <!-- you get the idea -->
-        </div>
 
-        <header class="header">
-          <h1 class="logo">
-            <img src="img/jsconf_2013_logo.png" width="282" height="281" alt="Jsconf 2013 Logo">
-          </h1>
+      <header class="header">
+        <div class="container">
           <ul class="social_nav">
             <li>
               <a href="https://twitter.com/jsconfeu" rel="me">@jsconfeu</a>
@@ -87,23 +38,101 @@
                   rel="publisher me">+jsconfeu</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/jsconfeu" rel="me">•YouTube</a>
+              <a href="https://www.youtube.com/jsconfeu" rel="me">YouTube</a>
             </li>
           </ul>
-        </header>
 
-        <aside class="sidebar">
-          <button>Buy Tickets</button>
-          <p class="ticket_info">
-            Ticket info soon.
-          </p>
-        </aside>
+          <div class="tickets">
+            <p class="ticket_info">
+              Tickets on sale now.
+              <i>&raquo; Next Sale: June 21, 2013, 9am PST</i>
+            </p>
+            <button>Buy Tickets</button>
+          </div>
+        </div>
+      </header>
+
+      <div class="stage">
+        <div class="container">
+
+
+          <h1 class="logo">
+            <img src="img/jsconf_2013_logo.png" width="282" height="281" alt="Jsconf 2013 Logo">
+          </h1>
+
+
+          <div class="testcircle">
+            <span class="char1">j</span>
+            <span class="char2">s</span>
+            <span class="char3">c</span>
+            <span class="char4">o</span>
+            <span class="char5">n</span>
+            <span class="char6">f</span>
+            <span class="char7">.</span>
+            <span class="char8">e</span>
+            <span class="char9">u</span>
+            <span class="char10">&nbsp;</span>
+            <span class="char11">B</span>
+            <span class="char12">e</span>
+            <span class="char13">r</span>
+            <span class="char14">l</span>
+            <span class="char15">i</span>
+            <span class="char16">n</span>
+            <span class="char17">&nbsp;</span>
+            <span class="char18">s</span>
+            <span class="char19">e</span>
+            <span class="char20">p</span>
+            <span class="char21">t</span>
+            <span class="char22">e</span>
+            <span class="char23">m</span>
+            <span class="char24">b</span>
+            <span class="char25">e</span>
+            <span class="char26">r</span>
+            <span class="char27">&nbsp;</span>
+            <span class="char28">1</span>
+            <span class="char29">5</span>
+            <span class="char30">+</span>
+            <span class="char31">1</span>
+            <span class="char32">6</span>
+            <span class="char33">&nbsp;</span>
+            <span class="char34">2</span>
+            <span class="char35">0</span>
+            <span class="char36">1</span>
+            <span class="char37">3</span>
+            <span class="char38">&nbsp;</span>
+          </div>
+
+
+        </div>
+
 
       </div>
+
+
     </div>
 
 
     <div class="main">
+
+      <nav>
+        <div class="container">
+         <ul>
+            <li>
+              <a href="/news.html">News</a>
+            </li>
+            <li>
+              <a href="/speakers.html">Speakers</a>
+            </li>
+            <li>
+              <a href="/schedule.html">Schedule</a>
+            </li>
+            <li>
+              <a href="/sponsors.html">Sponsors</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
       <div class="container">
 
     {{content}}
@@ -111,13 +140,15 @@
       </div>
     </div>
 
+    <div class="sponsors">
+      <div class="container">
+        <p>Sponsors go here (white background needed)</p>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
-
-        <p>Sponsors go here (white background needed)</p>
-        <p>JSConf EU welcomes everyone, and defends you from harassment with our strict anti-jerk policy</p>
-
-
+        <p>JSConf EU welcomes everyone, and defends you from harassment with our strict <a href="#">anti-jerk policy</a></p>
       </div>
     </footer>
 

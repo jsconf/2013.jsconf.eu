@@ -4,7 +4,6 @@
     font-size: 100%;
   }
   .top {
-    min-height: 500px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -21,7 +20,9 @@
     min-width: 282px;
   }
   .main_column {
-    width: 60%;
-    min-width: 280px;
+    width: 100%;
+    max-width: 640px;
+    overflow: hidden;
+    padding: 1.5em 4%;
   }
 }
