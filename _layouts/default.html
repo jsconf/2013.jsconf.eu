@@ -9,6 +9,8 @@
     <!--[if IE]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lte IE 7]><script src="lte-ie7.js"></script><![endif]-->
+
     <style>
       article, aside, dialog, figure, footer, header,
       hgroup, menu, nav, section { display: block; }
@@ -29,14 +31,14 @@
         <div class="container">
           <ul class="social_nav">
             <li>
-              <a href="https://twitter.com/jsconfeu" rel="me">@jsconfeu</a>
+              <span class="ico-twitter" aria-hidden="true"></span> <a href="https://twitter.com/jsconfeu" rel="me">@jsconfeu</a>
             </li>
             <li>
-              <a href="https://plus.google.com/114805666032419693531/posts"
+              <span class="ico-google-plus" aria-hidden="true"></span> <a href="https://plus.google.com/114805666032419693531/posts"
                   rel="publisher me">+jsconfeu</a>
             </li>
             <li>
-              <a href="https://www.youtube.com/jsconfeu" rel="me">YouTube</a>
+              <span class="ico-youtube" aria-hidden="true"></span> <a href="https://www.youtube.com/jsconfeu" rel="me">YouTube</a>
             </li>
           </ul>
 
@@ -45,7 +47,7 @@
               Tickets on sale now.
               <i>&raquo; Next Sale: June 21, 2013, 9am PST</i>
             </p>
-            <button>Buy Tickets</button>
+            <button><span class="ico-ticket" aria-hidden="true"></span> Buy Tickets</button>
           </div>
         </div>
       </header>

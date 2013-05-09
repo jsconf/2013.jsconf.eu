@@ -64,7 +64,7 @@ h2 {
 button {
   float: right;
   margin: 0 0 0 .5em;
-  padding: .75em 1em .5em;
+  padding: .5em 1em;
   font-size: 1.5em;
   background: $color_pink;
   color: #FFF;
@@ -72,6 +72,13 @@ button {
   border-radius: .25em;
   font-weight: bold;
   @include uppercase;
+  text-shadow: -4px 4px 0 $color_d_red;
+  
+  span {
+    font-size: 2em;
+    padding-right: .25em;
+    vertical-align: middle;
+  }
 }
 
 /* stage */
