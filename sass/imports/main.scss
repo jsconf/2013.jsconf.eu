@@ -53,8 +53,8 @@ h2 {
 }
 .ticket_info {
   float: left;
-  margin: 0;
-  padding: .5em 0;
+  margin: 0 1.5em 0 0;
+  padding: .75em 0;
   text-align: right;
   i {
     display: block;
@@ -63,7 +63,7 @@ h2 {
 }
 button {
   float: right;
-  margin: 0 0 0 .5em;
+  margin: 0 0 0 0;
   padding: .5em 1em;
   font-size: 1.5em;
   background: $color_pink;
@@ -73,7 +73,7 @@ button {
   font-weight: bold;
   @include uppercase;
   text-shadow: -4px 4px 0 $color_d_red;
-  
+  cursor: pointer;
   span {
     font-size: 2em;
     padding-right: .25em;
