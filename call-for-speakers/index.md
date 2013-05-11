@@ -4,7 +4,7 @@
 ---
 
 
-# [{{ page.title }}]({{ page.url }})
+{% include header.md %}
 
 > “JSConf EU — This is your conference.”
 
