@@ -4,4 +4,8 @@
 
 
 <h1>News</h1>
-<p>more soon</p>
+{% for post in site.tags.news limit: 3 %}
+  <article>
+    {{ post.content }}
+  </article>
+{% endfor %}
