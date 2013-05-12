@@ -9,9 +9,9 @@ body {
 
 /* fonts */
 body, input, textarea {
-  font-family: "rooney-web", Georgia, sans-serif;
+  font-family: "rooney-web", Georgia, serif;
 }
-h1, h2, h3, h4, h5, nav, button {
+h1, h2, h3, h4, h5, nav, .button {
   font-family: "p22-underground-sc", sans-serif;
   font-weight: bold;
 }
@@ -36,50 +36,74 @@ h2 {
 
 .header {
   overflow: hidden;
-  padding: 2em 0;
+  padding: 1em 0;
   background-color: $color_l_beige;
   color: $color_d_red;
 }
 
 .social_nav {
-  float: left;
-  clear: both;
+  margin-bottom: 1em;
   list-style: none;
   font-size: .75em;
+  text-align: center;
+  li {
+    display: inline;
+    margin: 0 1em;
+  }
+  a {
+    display: inline-block;
+    padding: .25em 0; 
+  }
 }
-.tickets {
-  float: right;
-  overflow: hidden;
+
+
+.tickets_on {
+  display: none;
 }
+
 .ticket_info {
-  float: left;
-  margin: 0 1.5em 0 0;
-  padding: .75em 0;
-  text-align: right;
+  margin-bottom: 0;
+  text-align: center;
   i {
     display: block;
     font-size: .75em;
   }
 }
-button {
-  float: right;
-  margin: 0 0 0 0;
+.button,
+.button:link,
+.button:visited {
+  display: block;
+  margin: 0 auto .25em 0;
   padding: .5em 1em;
   font-size: 1.5em;
-  background: $color_pink;
+  background-color: $color_pink;
   color: #FFF;
   border: 0;
   border-radius: .25em;
   font-weight: bold;
+  text-align: center;
   @include uppercase;
-  text-shadow: -4px 4px 0 $color_d_red;
   cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: $color_pink_hover;
+    color: #FFF;
+  }
   span {
     font-size: 2em;
     padding-right: .25em;
     vertical-align: middle;
   }
 }
+
+.tickets_off {
+  .button, .button:link, .button:visited, .button:hover, .button:focus {
+    background: $color_beige;
+    color: #FFF;
+    cursor: default;
+  }
+}
+
 
 /* stage */
 
@@ -142,22 +166,25 @@ a:link,
 a:visited {
   color: $color_pink;
   text-decoration: none;
+  @include transition(color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out);
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: $color_pink;
-  text-decoration: underline;
+  color: $color_pink_hover;
+  text-decoration: none;
 }
 
 
-nav ul {
-  margin: 1em 0;
-  text-align: center;
+nav {
+  ul {
+    margin: 1em 0;
+    text-align: center; 
+  }
   li {
     display: inline-block;
-    padding: .2em;
+    padding: .2em .5em;
     @include uppercase;
     font-weight: bold;
   }
@@ -168,6 +195,7 @@ nav ul {
 }
 
 .main_column {
+  max-width: 640px;
   margin: 0 auto;
   background: #FFF;
   overflow: hidden;

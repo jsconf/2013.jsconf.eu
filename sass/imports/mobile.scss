@@ -1,9 +1,48 @@
-/* --------------- Screens bigger than 768px ----------- */
-@media only screen and (min-width: 768px) {
+/* --------------- Screens bigger than 580px ----------- */
+@media only screen and (min-width: 580px) {
   body {
     font-size: 100%;
   }
-  .top {
+  .social_nav {
+    float: left;
+    clear: both;
+    margin-bottom: 0;
+    li {
+      display: block;
+      margin: 0;
+    }
+  }
+  nav {
+    li {
+      padding: .2em 1em;
+    }
+  }
+  .tickets {
+    float: right;
+    overflow: hidden;
+  }
+  .social_nav, .ticket_info {
+    font-size: .875em;
+  }
+}
+
+/* --------------- Screens bigger than 768px ----------- */
+
+@media only screen and (min-width: 768px) {
+  .main_column {
+    width: 100%;
+    overflow: hidden;
+    padding: 1.5em 4%;
+  }
+}
+
+/* --------------- Screens bigger than 1280px ----------- */
+
+/*
+  fixed header layout
+*/
+@media only screen and (min-width: 1280px) {
+/*  .top {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -21,8 +60,10 @@
   }
   .main_column {
     width: 100%;
-    max-width: 640px;
     overflow: hidden;
     padding: 1.5em 4%;
+  }*/
+  .social_nav, .ticket_info {
+    font-size: 1em;
   }
 }
