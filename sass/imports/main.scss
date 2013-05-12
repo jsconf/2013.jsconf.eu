@@ -42,44 +42,47 @@ h2 {
 }
 
 .social_nav {
-  float: left;
-  clear: both;
   list-style: none;
   font-size: .75em;
 }
-.tickets {
-  float: right;
-  overflow: hidden;
-}
+
 .ticket_info {
-  float: left;
-  margin: 0 1.5em 0 0;
   padding: .75em 0;
-  text-align: right;
+  text-align: center;
   i {
     display: block;
     font-size: .75em;
   }
 }
 button {
-  float: right;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   padding: .5em 1em;
   font-size: 1.5em;
-  background: $color_pink;
+  background-color: $color_pink;
   color: #FFF;
   border: 0;
   border-radius: .25em;
   font-weight: bold;
   @include uppercase;
-  text-shadow: -4px 4px 0 $color_d_red;
   cursor: pointer;
+  &:hover {
+    background-color: $color_pink_hover;
+  }
   span {
     font-size: 2em;
     padding-right: .25em;
     vertical-align: middle;
   }
 }
+
+.tickets_off {
+  button {
+    background: $color_beige;
+    color: #FFF;
+    cursor: default;
+  }
+}
+
 
 /* stage */
 
@@ -147,8 +150,8 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
-  color: $color_pink;
-  text-decoration: underline;
+  color: $color_pink_hover;
+  text-decoration: none;
 }
 
 

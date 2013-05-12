@@ -1,3 +1,27 @@
+/* --------------- Screens bigger than 580px ----------- */
+@media only screen and (min-width: 580px) {
+  body {
+    font-size: 100%;
+  }
+  .social_nav {
+    float: left;
+    clear: both;
+  }
+  .tickets {
+    float: right;
+    overflow: hidden;
+  }
+  .ticket_info {
+    float: left;
+    margin: 0 1.5em 0 0;
+    text-align: right;
+  }
+  button {
+    float: right;
+    margin: 0;
+  }
+}
+
 /* --------------- Screens bigger than 768px ----------- */
 @media only screen and (min-width: 768px) {
   body {
