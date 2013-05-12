@@ -9,9 +9,9 @@ body {
 
 /* fonts */
 body, input, textarea {
-  font-family: "rooney-web", Georgia, sans-serif;
+  font-family: "rooney-web", Georgia, serif;
 }
-h1, h2, h3, h4, h5, nav {
+h1, h2, h3, h4, h5, nav, .button {
   font-family: "p22-underground-sc", sans-serif;
   font-weight: bold;
 }
@@ -36,27 +36,44 @@ h2 {
 
 .header {
   overflow: hidden;
-  padding: 2em 0;
+  padding: 1em 0;
   background-color: $color_l_beige;
   color: $color_d_red;
 }
 
 .social_nav {
+  margin-bottom: 1em;
   list-style: none;
   font-size: .75em;
+  text-align: center;
+  li {
+    display: inline;
+    margin: 0 1em;
+  }
+  a {
+    display: inline-block;
+    padding: .25em 0; 
+  }
+}
+
+
+.tickets_on {
+  display: none;
 }
 
 .ticket_info {
-  padding: .75em 0;
+  margin-bottom: 0;
   text-align: center;
   i {
     display: block;
     font-size: .75em;
   }
 }
-.button {
-  display: inline-block;
-  margin: 0 auto;
+.button,
+.button:link,
+.button:visited {
+  display: block;
+  margin: 0 auto .25em 0;
   padding: .5em 1em;
   font-size: 1.5em;
   background-color: $color_pink;
@@ -64,10 +81,13 @@ h2 {
   border: 0;
   border-radius: .25em;
   font-weight: bold;
+  text-align: center;
   @include uppercase;
   cursor: pointer;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $color_pink_hover;
+    color: #FFF;
   }
   span {
     font-size: 2em;
@@ -77,7 +97,7 @@ h2 {
 }
 
 .tickets_off {
-  .button {
+  .button, .button:link, .button:visited, .button:hover, .button:focus {
     background: $color_beige;
     color: #FFF;
     cursor: default;
@@ -157,12 +177,14 @@ a:focus {
 }
 
 
-nav ul {
-  margin: 1em 0;
-  text-align: center;
+nav {
+  ul {
+    margin: 1em 0;
+    text-align: center; 
+  }
   li {
     display: inline-block;
-    padding: .2em;
+    padding: .2em .5em;
     @include uppercase;
     font-weight: bold;
   }
@@ -173,6 +195,7 @@ nav ul {
 }
 
 .main_column {
+  max-width: 640px;
   margin: 0 auto;
   background: #FFF;
   overflow: hidden;
