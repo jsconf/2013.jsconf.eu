@@ -26,10 +26,23 @@
   }
 }
 
+/* --------------- Screens bigger than 768px ----------- */
 
-/* --------------- Screens bigger than 1024px ----------- */
-@media only screen and (min-width: 1024px) {
-  .top {
+@media only screen and (min-width: 768px) {
+  .main_column {
+    width: 100%;
+    overflow: hidden;
+    padding: 1.5em 4%;
+  }
+}
+
+/* --------------- Screens bigger than 1280px ----------- */
+
+/*
+  fixed header layout
+*/
+@media only screen and (min-width: 1280px) {
+/*  .top {
     position: fixed;
     top: 0;
     z-index: 1;
@@ -49,11 +62,7 @@
     width: 100%;
     overflow: hidden;
     padding: 1.5em 4%;
-  }
-}
-
-/* --------------- Screens bigger than 1280px ----------- */
-@media only screen and (min-width: 1280px) {
+  }*/
   .social_nav, .ticket_info {
     font-size: 1em;
   }
