@@ -11,7 +11,7 @@ body {
 body, input, textarea {
   font-family: "rooney-web", Georgia, sans-serif;
 }
-h1, h2, h3, h4, h5, nav, button {
+h1, h2, h3, h4, h5, nav {
   font-family: "p22-underground-sc", sans-serif;
   font-weight: bold;
 }
@@ -54,7 +54,8 @@ h2 {
     font-size: .75em;
   }
 }
-button {
+.button {
+  display: inline-block;
   margin: 0 auto;
   padding: .5em 1em;
   font-size: 1.5em;
@@ -76,7 +77,7 @@ button {
 }
 
 .tickets_off {
-  button {
+  .button {
     background: $color_beige;
     color: #FFF;
     cursor: default;
@@ -145,6 +146,7 @@ a:link,
 a:visited {
   color: $color_pink;
   text-decoration: none;
+  @include transition(color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out);
 }
 
 a:hover,
