@@ -116,4 +116,4 @@ Finally, since you retain full ownership of your slides and recording, we’d li
 
 ## Submit Your Talk
 
-<iframe src="https://docs.google.com/a/jsconf.eu/spreadsheet/embeddedform?formkey=dFNhWDI5aXJWaWJ3TFJjV08yVGNHS2c6MQ" width="580" height="1740" frameborder="0" marginheight="0" marginwidth="0">Loading&hellip;</iframe>
+<iframe src="https://docs.google.com/a/jsconf.eu/spreadsheet/embeddedform?formkey=dFNSRHlRaENGUW1hNkZMOGdlR3gxR1E6MA" width="580" height="1940" frameborder="0" marginheight="0" marginwidth="0" style="margin-left:-10px">Loading&hellip;</iframe>
