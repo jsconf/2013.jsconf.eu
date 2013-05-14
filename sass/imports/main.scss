@@ -348,9 +348,24 @@ article {
   height: 100%;
 }
 
+.person {
+  position: relative;
+}
+
+.person div {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  color: $color_l_beige
+}
+
+.person a {
+  color: $color_l_beige
+}
 
 .date {
   color: tint($color_dark, 50%);
   font-size: .875em;
   font-style: italic;
 }
+
