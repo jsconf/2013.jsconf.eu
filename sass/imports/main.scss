@@ -227,36 +227,44 @@ footer {
   text-align: right;
 }
 
-/* typography */
-p, ul, ol, dl {
-  margin-bottom: 1.5em;
+/* typography in main content area */
+.main_column {
+  p, ul, ol, dl {
+    margin-bottom: 1.5em;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+    margin-left: 1.5em;
+    padding-left: 1.5em;
+    text-indent: -.7em;
+  }
+
+  li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: .6em;
+    left: -1.5em;
+    width: 1em;
+    height: 5px;
+    background-color: $color_mint;
+  }
+
+  ul li, ol li {
+    li:before {
+      top: .6em;
+      left: -.75em;
+      width: .5em;
+      height: 3px;
+    }
+  }
 }
 
-ul, ol {
-}
-
-
-ul {
-  list-style: none;
-}
-
-li {
-  position: relative;
-  margin-left: 1.5em;
-  padding-left: 1.5em;
-  text-indent: -.7em;
-}
-
-li:before {
-  content: "";
-  display: inline-block;
-  position: absolute;
-  top: .6em;
-  left: -1.5em;
-  width: 1em;
-  height: 5px;
-  background-color: $color_mint;
-}
 
 
 blockquote {

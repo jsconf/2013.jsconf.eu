@@ -4,7 +4,7 @@
 ---
 
 
-{% include header.md %}
+# Call for Speakers
 
 > “JSConf EU — This is your conference.”
 
