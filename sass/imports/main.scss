@@ -52,7 +52,7 @@ h2 {
   }
   a {
     display: inline-block;
-    padding: .25em 0; 
+    padding: .25em 0;
   }
 }
 
@@ -228,7 +228,7 @@ a:focus {
 nav {
   ul {
     margin: 1em 0;
-    text-align: center; 
+    text-align: center;
   }
   li {
     display: inline-block;
@@ -264,8 +264,8 @@ article {
   }
 }
 
-/* fluid video iframes */
-.video_container {
+/* fluid iframes */
+.embed_container {
   position: relative;
   padding-bottom: 56.25%;
   padding-top: 30px;
@@ -273,7 +273,8 @@ article {
   overflow: hidden;
 }
 
-.video_container iframe {
+.embed_container iframe,
+.embed_container img {
   position: absolute;
   top: 0;
   left: 0;
