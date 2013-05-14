@@ -24,13 +24,10 @@ h1, h2, h3, h4, h5, nav, .button {
 
 h2 {
   font-size: 2em;
-  margin: .5em 0;
+  margin: 1.5em 0 .5em 0;
 }
 
-h2 {
-  font-size: 1.5em;
-  margin: .5em 0;
-}
+
 
 
 .container {
@@ -231,9 +228,44 @@ footer {
 }
 
 /* typography */
-p {
+p, ul, ol, dl {
   margin-bottom: 1.5em;
 }
+
+ul, ol {
+}
+
+
+ul {
+  list-style: none;
+}
+
+li {
+  position: relative;
+  margin-left: 1.5em;
+  padding-left: 1.5em;
+  text-indent: -.7em;
+}
+
+li:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: .6em;
+  left: -1.5em;
+  width: 1em;
+  height: 5px;
+  background-color: $color_mint;
+}
+
+
+blockquote {
+  font-style: italic;
+  margin: 2.5em 1.5em 3em;
+  color: $color_d_red;
+}
+
+
 
 a,
 a:link,
