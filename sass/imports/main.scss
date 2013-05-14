@@ -16,6 +16,12 @@ h1, h2, h3, h4, h5, nav, .button {
   font-weight: bold;
 }
 
+
+.main h1 {
+  font-size: 2.5em;
+  margin: .5em 0;
+}
+
 h2 {
   font-size: 2em;
   margin: .5em 0;
@@ -72,7 +78,7 @@ h2 {
 .button,
 .button:link,
 .button:visited {
-  display: block;
+  display: none;
   margin: 0 auto .25em 0;
   padding: .5em 1em;
   font-size: 1.5em;
@@ -173,12 +179,32 @@ h2 {
   background: $color_dark no-repeat 50% 0;
 }
 .background0 .stage {
-  background-image: url('/img/top_group.jpg');
-  background-position: 50% 40%;
+  background-image: url('/img/top_pattern.jpg');
+  background-position: 50% 60%;
+  background-color: #94ced5;
 }
 .background1 .stage {
   background-image: url('/img/top_punk.jpg');
   background-repeat: repeat;
+}
+.background2 .stage {
+  background-image: url('/img/top_group.jpg');
+  background-position: 50% 40%;
+}
+.background3 .stage {
+  background-image: url('/img/top_mandy_jed.jpg');
+  background-position: 50% 40%;
+  background-color: #440b40;
+}
+.background4 .stage {
+  background-image: url('/img/top_disco.jpg');
+  background-position: 50% 50%;
+  background-color: #440b40;
+}
+.background5 .stage {
+  background-image: url('/img/top_fragment.jpg');
+  background-position: 50% 70%;
+  background-color: #004bcc;
 }
 
 

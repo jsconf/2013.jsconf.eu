@@ -17,6 +17,11 @@
       padding: .2em 1em;
     }
   }
+  .button,
+  .button:link,
+  .button:visited {
+    display: block;
+  }
   .tickets {
     float: right;
     overflow: hidden;
@@ -63,6 +68,9 @@
     overflow: hidden;
     padding: 1.5em 4%;
   }*/
+  .stage {
+    min-height: 400px;
+  }
   .social_nav, .ticket_info {
     font-size: 1em;
   }
