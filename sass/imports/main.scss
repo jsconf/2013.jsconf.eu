@@ -110,6 +110,7 @@ h2 {
 .stage {
   border-top: 1em solid $color_beige;
   border-bottom: 1em solid $color_beige;
+  overflow: hidden;
 }
 
 .logo {
@@ -118,41 +119,68 @@ h2 {
   position: relative;
   height: 18.3em;
   width: 18.3em;
-  .ico-logo, .ico-circle {
-    position: absolute;
-  }
-  .ico-logo {
-    font-size: 12em;
-    right: 0;
-    bottom: 0;
-  }
-  .ico-circle {
-    color: #FFF;
-    font-size: 12em;
-    top: 0;
-    left: 0;
-  }
 }
 
-.logo img {
-  width: 100%;
-  max-width: 282px;
+.ico-logo, .ico-circle {
+  position: absolute;
+}
+.ico-logo {
+  font-size: 12em;
+  right: 0;
+  bottom: 0;
+}
+.ico-circle {
+  color: #FFF;
+  font-size: 12em;
+  top: 0;
+  left: 0;
+}
+
+.logo:hover .ico-circle {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 500ms;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 500ms;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-timing-function: ease-in-out;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 500ms;
+  -ms-animation-iteration-count: 1;
+  -ms-animation-timing-function: ease-in-out;
+  -o-transition: rotate(3600deg);
+}
+
+@-moz-keyframes spin {
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
 
 
 
-.top {
+.stage {
   width: 100%;
   overflow: hidden;
   background: $color_dark no-repeat 50% 0;
-  background-size: 100%;
 }
-.background1 .top {
-  background: url('/img/top_group.jpg')
+.background0 .stage {
+  background-image: url('/img/top_group.jpg');
+  background-position: 50% 40%;
 }
-.background0 .top {
-  background: url('/img/top_mandy.jpg')
+.background1 .stage {
+  background-image: url('/img/top_punk.jpg');
+  background-repeat: repeat;
 }
+
 
 
 /* main content area */
