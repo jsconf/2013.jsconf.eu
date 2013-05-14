@@ -354,34 +354,3 @@ article {
   font-size: .875em;
   font-style: italic;
 }
-
-
-@mixin rotated-text($num-letters: 38, $angle-span: 360deg, $angle-offset: 0deg) {
-  $angle-per-char: $angle-span / $num-letters;
-  @for $i from 1 through $num-letters {
-    .char#{$i} {
-      @include transform(rotate($angle-offset + $angle-per-char * $i))
-    }
-  }
-}
-
-
-.testcircle {
-  display: none;
-  @include rotated-text;
-  @include uppercase;
-  color: #FFF;
-  position: fixed;
-  top: 1em;
-  left: 12em;
-  vertical-align: middle;
-  span {
-    font: 14px Monaco, MonoSpace;
-    height: 200px;
-    position: absolute;
-    width: 20px;
-    left: 0;
-    top: 0;
-    transform-origin: 50% 50%;
-  }
-}
