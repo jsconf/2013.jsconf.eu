@@ -114,12 +114,32 @@ h2 {
 
 .logo {
   margin: 1em 0;
-  text-align: right;
+  float: right;
+  position: relative;
+  height: 18.3em;
+  width: 18.3em;
+  .ico-logo, .ico-circle {
+    position: absolute;
+  }
+  .ico-logo {
+    font-size: 12em;
+    right: 0;
+    bottom: 0;
+  }
+  .ico-circle {
+    color: #FFF;
+    font-size: 12em;
+    top: 0;
+    left: 0;
+  }
 }
+
 .logo img {
   width: 100%;
   max-width: 282px;
 }
+
+
 
 .top {
   width: 100%;
