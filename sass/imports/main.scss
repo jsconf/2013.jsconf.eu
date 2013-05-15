@@ -387,17 +387,17 @@ article {
 
 .person {
   position: relative;
-}
-
-.person div {
-  position: absolute;
-  bottom: 10px;
-  right: 15px;
-  color: $color_l_beige
-}
-
-.person a {
-  color: $color_l_beige
+  display: inline-block;
+  margin-right: 2em;
+  span {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    color: $color_l_beige
+  }
+  a {
+    color: $color_l_beige
+  }
 }
 
 .date {

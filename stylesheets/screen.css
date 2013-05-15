@@ -544,17 +544,17 @@ article header {
 /* line 388, ../sass/imports/main.scss */
 .person {
   position: relative;
+  display: inline-block;
+  margin-right: 2em;
 }
-
 /* line 392, ../sass/imports/main.scss */
-.person div {
+.person span {
   position: absolute;
-  bottom: 10px;
-  right: 15px;
+  bottom: 1em;
+  right: 1em;
   color: #fbf6ef;
 }
-
-/* line 399, ../sass/imports/main.scss */
+/* line 398, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
@@ -739,7 +739,7 @@ you can use the generic selector below, but it's slower:
     }*/
   /* line 71, ../sass/imports/mobile.scss */
   .stage {
-    min-height: 400px;
+    min-height: 460px;
   }
 
   /* line 74, ../sass/imports/mobile.scss */

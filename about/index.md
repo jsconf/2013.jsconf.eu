@@ -27,29 +27,32 @@ Let the moving images speak for themselves:
 
 JSConf EU is brought to you by these people:
 
-<span class="person">
-  <img src="/img/tiffany.jpg" width="280" height="280" alt="Tiffany Conroy">
-  <div>Tiffany Conroy –
-    <a href="https://twitter.com/theophani" target="_blank">@theophani</a>
-  </div>
-</span>
-<span class="person">
-  <img src="/img/jan.png" width="280" height="280" alt="Jan Lehnardt">
-  <div>Jan Lehnardt –
-    <a href="https://twitter.com/janl" target="_blank">@janl</a>
-  </div>
-</span>
-<span class="person">
-  <img src="/img/holger.jpg" width="280" height="280" alt="Holger Blank">
-  <div>
-    <a href="https://plus.google.com/u/0/115780460381776595134/posts" target="_blank">+Holger Blank</a> –
-    <a href="https://twitter.com/hblank" target="_blank">@hblank</a>
-  </div>
-</span>
-<span class="person">
-  <img src="/img/malte.jpg" width="280" height="280" alt="Malte Ubl">
-  <div>
-    <a href="https://plus.google.com/u/0/116910304844117268718/posts" target="_blank">+Malte Ubl</a> –
-    <a href="https://twitter.com/cramforce" target="_blank">@cramforce</a>
-  </div>
-</span>
+<p class='person'>
+  <img alt='Tiffany Conroy' height='280' src='/img/tiffany.jpg' width='280' />
+  <span>Tiffany Conroy –
+    <a href='https://twitter.com/theophani' target='_blank'>@theophani</a>
+  </span>
+</p>
+
+<p class='person'>
+  <img alt='Jan Lehnardt' height='280' src='/img/jan.png' width='280' />
+  <span>Jan Lehnardt –
+    <a href='https://twitter.com/janl' target='_blank'>@janl</a>
+  </span>
+</p>
+
+<p class='person'>
+  <img alt='Holger Blank' height='280' src='/img/holger.jpg' width='280' />
+  <span>
+    <a href='https://plus.google.com/u/0/115780460381776595134/posts' target='_blank'>+Holger Blank</a> –
+    <a href='https://twitter.com/hblank' target='_blank'>@hblank</a>
+  </span>
+</p>
+
+<p class='person'>
+  <img alt='Malte Ubl' height='280' src='/img/malte.jpg' width='280' />
+  <span>
+    <a href='https://plus.google.com/u/0/116910304844117268718/posts' target='_blank'>+Malte Ubl</a> –
+    <a href='https://twitter.com/cramforce' target='_blank'>@cramforce</a>
+  </span>
+</p>

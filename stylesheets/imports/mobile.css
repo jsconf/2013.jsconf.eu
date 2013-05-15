@@ -19,7 +19,7 @@
 
   /* line 16, ../../sass/imports/mobile.scss */
   nav li {
-    padding: .2em 1em;
+    padding: 0.2em 1em;
   }
 
   /* line 22, ../../sass/imports/mobile.scss */
@@ -77,7 +77,7 @@
     }*/
   /* line 71, ../../sass/imports/mobile.scss */
   .stage {
-    min-height: 400px;
+    min-height: 460px;
   }
 
   /* line 74, ../../sass/imports/mobile.scss */
