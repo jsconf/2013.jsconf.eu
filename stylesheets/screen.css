@@ -316,9 +316,9 @@ h4 {
 
 /* line 191, ../sass/imports/main.scss */
 .background1 .stage {
-  background-image: url("/img/top_bubble.jpg");
+  background-image: url("/img/top_draw.jpg");
   background-position: 50% 70%;
-  background-color: #670141;
+  background-color: #929196;
 }
 
 /* line 196, ../sass/imports/main.scss */
@@ -350,9 +350,9 @@ h4 {
 
 /* line 215, ../sass/imports/main.scss */
 .background6 .stage {
-  background-image: url("/img/top_draw.jpg");
+  background-image: url("/img/top_bubble.jpg");
   background-position: 50% 70%;
-  background-color: #8d1061;
+  background-color: #670141;
 }
 
 /* line 220, ../sass/imports/main.scss */
