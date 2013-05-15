@@ -13,9 +13,10 @@ We are inviting the JavaScript community to submit talks for the upcoming JSConf
 
 This is what we call a “Hybrid CFP”: If you think you have something great to talk about, tell us all about it and we consider your entry. If you know someone who has something great to talk about, nominate them. And if you are interested in hearing about a particular topic, nominate the topic, and we can try and find a match.
 
+
 ## Topics
 
-To get a feel for what we are interested in hearing about, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html),[2012](http://jsconf.eu/2012/speakers.html)).
+To get a feel for what we are interested in hearing about, here is the programme for the past years ([2009](http://jsconf.eu/2009/speakers.html), [2010](http://jsconf.eu/2010/speakers.html), [2011](http://jsconf.eu/2011/speakers.html), [2012](http://jsconf.eu/2012/speakers.html)).
 
 We like to see anything that squarely fits into the spectrum of:
 
@@ -28,6 +29,7 @@ We like to see anything that squarely fits into the spectrum of:
  * Fundamentals, in a modern light.
  * The JavaScript community, history, past, present & future.
  * And finally: Whatever the hell you want; this is your conference.
+
 
 ## We Can Help
 
@@ -44,6 +46,7 @@ There are about a million reasons why *you* don’t consider yourself a speaker,
 Get in touch: [contact@jsconf.eu](mailto:contact@jsconf.eu ) (just don’t use this to submit a proposal).
 
 If you need more encouragement, check out co-organiser Tiffany’s site [We Are All Awesome](http://weareallaweso.me/) that tries to convince you to speak.
+
 
 ## The Perks
 
@@ -78,19 +81,19 @@ We expect 100-200 excellent submissions for 30-40 speaking slots. The process he
 
 [Read all about how this went down last year and how we arrived at an amazing number of 25% women speakers](http://2012.jsconf.eu/2012/09/17/beating-the-odds-how-we-got-25-percent-women-speakers.html).
 
+
 ## Example Submission
 
-Here’s a proposal that we accepted in 2011:
+Here’s a proposal that we accepted in 2012:
 
 > ### JavaScript is the new Punk Rock
 > On 4th June 1976, the Sex Pistols played Manchester’s Lesser Free Trade Hall. It was an event that changed the world forever. There were only about 40 people there, but those who attended were inspired to form their own bands, creating Joy Division, The Buzzcocks, The Fall and The Smiths. As these bands fade away, we’re long overdue for another such event. Programmers are artists, and JavaScript is the new Punk Rock.
 > My talk will show that JavaScript can be used to write and perform music using the wonderful Web Audio API. I’ll talk about why we should do this and why it’s the future of music. By the time the conference is over you’ll have burned your guitar, remixed a dozen tunes on GitHub, and started a JavaScript band that has its sights set on changing the world.
 
 
-
 ## Guidelines
 
-Submit your proposal by **June 12th, 23:59:59 CEST**. No excuses.
+Submit your proposal by **June 12th 2013, 23:59:59 CEST**. No excuses.
 
 All talks are **in English**.
 
@@ -112,6 +115,7 @@ All talks will be recorded and published on the internet for free, along with a 
 We do this for the benefit of the larger JS community and those who can’t make it to the conference. We hope you want to help out, but if you are in any way uncomfortable in any way, let us know and we will work things out.
 
 Finally, since you retain full ownership of your slides and recording, we’d like to ask you to make your materials and recording available under a creative commons (we default to no commercial reuse) or other open source license.
+
 
 ## Submit Your Talk
 
