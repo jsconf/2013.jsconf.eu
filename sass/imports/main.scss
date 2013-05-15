@@ -32,7 +32,7 @@ h3 {
 }
 h4 {
   font-size: 1.429em;
-  margin: 1.5em 0 .5em 0;
+  margin-bottom: .5em;
 }
 
 
@@ -252,13 +252,13 @@ footer {
 
 /* typography in main content area */
 .main_column {
-  p, ul, ol, dl, hr {
+  p, ul, ol, dl, hr, address {
     margin-bottom: 1.5em;
   }
 
   ul {
     list-style: none;
-li {
+    li {
       position: relative;
       margin-left: 1.5em;
       padding-left: 1.5em;
@@ -275,8 +275,26 @@ li {
       background-color: $color_mint;
     }
   }
-
+  .schedule_list {
+    margin-bottom: 4.5em;
+    li {
+      margin-left: 0;
+      padding-left: 0;
+      text-indent: 0;
+      margin-bottom: 1.5em;
+      border-bottom: .1875em solid $color_mint;
+    }
+    > li:before {
+      display: none;
+    }
+    i {
+      display: block;
+      color: $color_d_mint;
+      font-style: italic;
+    }
+  }
 }
+
 
 
 
@@ -349,6 +367,7 @@ article {
 /* fluid iframes */
 .embed_container {
   position: relative;
+  margin-bottom: 1.5em;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
@@ -380,7 +399,7 @@ article {
 }
 
 .date {
-  color: tint($color_dark, 50%);
+  color: $color_d_mint;
   font-size: .875em;
   font-style: italic;
 }

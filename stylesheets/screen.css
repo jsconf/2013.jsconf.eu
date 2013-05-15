@@ -116,7 +116,7 @@ h3 {
 /* line 33, ../sass/imports/main.scss */
 h4 {
   font-size: 1.429em;
-  margin: 1.5em 0 0.5em 0;
+  margin-bottom: .5em;
 }
 
 /* line 41, ../sass/imports/main.scss */
@@ -395,7 +395,7 @@ footer {
 
 /* typography in main content area */
 /* line 255, ../sass/imports/main.scss */
-.main_column p, .main_column ul, .main_column ol, .main_column dl, .main_column hr {
+.main_column p, .main_column ul, .main_column ol, .main_column dl, .main_column hr, .main_column address {
   margin-bottom: 1.5em;
 }
 /* line 259, ../sass/imports/main.scss */
@@ -420,19 +420,41 @@ footer {
   height: 5px;
   background-color: #c6e3d9;
 }
+/* line 278, ../sass/imports/main.scss */
+.main_column .schedule_list {
+  margin-bottom: 4.5em;
+}
+/* line 280, ../sass/imports/main.scss */
+.main_column .schedule_list li {
+  margin-left: 0;
+  padding-left: 0;
+  text-indent: 0;
+  margin-bottom: 1.5em;
+  border-bottom: 0.1875em solid #c6e3d9;
+}
+/* line 287, ../sass/imports/main.scss */
+.main_column .schedule_list > li:before {
+  display: none;
+}
+/* line 290, ../sass/imports/main.scss */
+.main_column .schedule_list i {
+  display: block;
+  color: #74b4b0;
+  font-style: italic;
+}
 
-/* line 283, ../sass/imports/main.scss */
+/* line 301, ../sass/imports/main.scss */
 blockquote {
   margin: 2.5em 1.5em 3em;
   color: #4c0025;
 }
-/* line 286, ../sass/imports/main.scss */
+/* line 304, ../sass/imports/main.scss */
 blockquote p {
   font-style: italic;
 }
 
 /* links */
-/* line 295, ../sass/imports/main.scss */
+/* line 313, ../sass/imports/main.scss */
 a,
 a:link,
 a:visited {
@@ -444,7 +466,7 @@ a:visited {
   transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 
-/* line 303, ../sass/imports/main.scss */
+/* line 321, ../sass/imports/main.scss */
 a:hover,
 a:active,
 a:focus {
@@ -453,12 +475,12 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 311, ../sass/imports/main.scss */
+/* line 329, ../sass/imports/main.scss */
 nav ul {
   margin: 1em 0;
   text-align: center;
 }
-/* line 315, ../sass/imports/main.scss */
+/* line 333, ../sass/imports/main.scss */
 nav li {
   display: inline-block;
   padding: 0.2em 0.5em;
@@ -467,12 +489,12 @@ nav li {
   font-weight: bold;
 }
 
-/* line 323, ../sass/imports/main.scss */
+/* line 341, ../sass/imports/main.scss */
 .main {
   padding: 3em 0;
 }
 
-/* line 327, ../sass/imports/main.scss */
+/* line 345, ../sass/imports/main.scss */
 .main_column {
   max-width: 640px;
   margin: 0 auto;
@@ -480,34 +502,35 @@ nav li {
   overflow: hidden;
 }
 
-/* line 334, ../sass/imports/main.scss */
+/* line 352, ../sass/imports/main.scss */
 section {
   margin: 0 0 4.5em 0;
   padding: 0 3%;
   clear: both;
 }
 
-/* line 341, ../sass/imports/main.scss */
+/* line 359, ../sass/imports/main.scss */
 article {
   margin-bottom: 4.5em;
 }
-/* line 343, ../sass/imports/main.scss */
+/* line 361, ../sass/imports/main.scss */
 article header {
   margin-bottom: 1em;
   border-bottom: 0.1875em solid #c6e3d9;
 }
 
 /* fluid iframes */
-/* line 350, ../sass/imports/main.scss */
+/* line 368, ../sass/imports/main.scss */
 .embed_container {
   position: relative;
+  margin-bottom: 1.5em;
   padding-bottom: 56.25%;
   padding-top: 30px;
   height: 0;
   overflow: hidden;
 }
 
-/* line 359, ../sass/imports/main.scss */
+/* line 378, ../sass/imports/main.scss */
 .embed_container iframe,
 .embed_container img {
   position: absolute;
@@ -517,12 +540,12 @@ article header {
   height: 100%;
 }
 
-/* line 367, ../sass/imports/main.scss */
+/* line 386, ../sass/imports/main.scss */
 .person {
   position: relative;
 }
 
-/* line 371, ../sass/imports/main.scss */
+/* line 390, ../sass/imports/main.scss */
 .person div {
   position: absolute;
   bottom: 10px;
@@ -530,14 +553,14 @@ article header {
   color: #fbf6ef;
 }
 
-/* line 378, ../sass/imports/main.scss */
+/* line 397, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
 
-/* line 382, ../sass/imports/main.scss */
+/* line 401, ../sass/imports/main.scss */
 .date {
-  color: #808f8c;
+  color: #74b4b0;
   font-size: .875em;
   font-style: italic;
 }
