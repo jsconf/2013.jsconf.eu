@@ -309,9 +309,9 @@ h4 {
 
 /* line 186, ../sass/imports/main.scss */
 .background0 .stage {
-  background-image: url("/img/top_pattern.jpg");
-  background-position: 50% 60%;
-  background-color: #94ced5;
+  background-image: url("/img/top_bollocks.jpg");
+  background-position: 50% 70%;
+  background-color: #34003e;
 }
 
 /* line 191, ../sass/imports/main.scss */
@@ -363,9 +363,9 @@ h4 {
 
 /* line 224, ../sass/imports/main.scss */
 .background8 .stage {
-  background-image: url("/img/top_bollocks.jpg");
-  background-position: 50% 70%;
-  background-color: #34003e;
+  background-image: url("/img/top_pattern.jpg");
+  background-position: 50% 60%;
+  background-color: #94ced5;
 }
 
 /* main content area */
