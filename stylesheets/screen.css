@@ -316,53 +316,53 @@ h4 {
 
 /* line 191, ../sass/imports/main.scss */
 .background1 .stage {
-  background-image: url("/img/top_punk.jpg");
-  background-repeat: repeat;
+  background-image: url("/img/top_bubble.jpg");
+  background-position: 50% 70%;
+  background-color: #670141;
 }
 
-/* line 195, ../sass/imports/main.scss */
+/* line 196, ../sass/imports/main.scss */
 .background2 .stage {
   background-image: url("/img/top_group.jpg");
   background-position: 50% 40%;
 }
 
-/* line 199, ../sass/imports/main.scss */
+/* line 200, ../sass/imports/main.scss */
 .background3 .stage {
   background-image: url("/img/top_mandy_jed.jpg");
   background-position: 50% 40%;
   background-color: #440b40;
 }
 
-/* line 204, ../sass/imports/main.scss */
+/* line 205, ../sass/imports/main.scss */
 .background4 .stage {
   background-image: url("/img/top_disco.jpg");
   background-position: 50% 50%;
   background-color: #440b40;
 }
 
-/* line 209, ../sass/imports/main.scss */
+/* line 210, ../sass/imports/main.scss */
 .background5 .stage {
   background-image: url("/img/top_fragment.jpg");
   background-position: 50% 70%;
   background-color: #004bcc;
 }
 
-/* line 214, ../sass/imports/main.scss */
+/* line 215, ../sass/imports/main.scss */
 .background6 .stage {
   background-image: url("/img/top_draw.jpg");
   background-position: 50% 70%;
   background-color: #8d1061;
 }
 
-/* line 219, ../sass/imports/main.scss */
+/* line 220, ../sass/imports/main.scss */
 .background7 .stage {
-  background-image: url("/img/top_bubble.jpg");
-  background-position: 50% 70%;
-  background-color: #670141;
+  background-image: url("/img/top_punk.jpg");
+  background-repeat: repeat;
 }
 
 /* line 224, ../sass/imports/main.scss */
-.background7 .stage {
+.background8 .stage {
   background-image: url("/img/top_bollocks.jpg");
   background-position: 50% 70%;
   background-color: #34003e;

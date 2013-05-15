@@ -189,8 +189,9 @@ h4 {
   background-color: #94ced5;
 }
 .background1 .stage {
-  background-image: url('/img/top_punk.jpg');
-  background-repeat: repeat;
+  background-image: url('/img/top_bubble.jpg');
+  background-position: 50% 70%;
+  background-color: #670141;
 }
 .background2 .stage {
   background-image: url('/img/top_group.jpg');
@@ -217,11 +218,10 @@ h4 {
   background-color: #8d1061;
 }
 .background7 .stage {
-  background-image: url('/img/top_bubble.jpg');
-  background-position: 50% 70%;
-  background-color: #670141;
+  background-image: url('/img/top_punk.jpg');
+  background-repeat: repeat;
 }
-.background7 .stage {
+.background8 .stage {
   background-image: url('/img/top_bollocks.jpg');
   background-position: 50% 70%;
   background-color: #34003e;
