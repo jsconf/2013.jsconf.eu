@@ -1,6 +1,7 @@
 ---
   layout: default
   title: About JSConf EU
+  background: background2
 ---
 
 

@@ -1,4 +1,7 @@
 $(function() {
+  if (/background/.test(document.body.className)) {
+    return;
+  }
   var numberOfBackgrounds = 0;
   var rules = document.styleSheets[1].cssRules;
   for (var i = 0; i < rules.length; i++) {

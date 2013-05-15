@@ -20,7 +20,7 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="/js/make-the-website-load-slower.js" async></script>
   </head>
-  <body>
+  <body{% if page.background %} class="{{ page.background }}"{%endif%}>
 
 
     <div class="top">
