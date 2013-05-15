@@ -26,6 +26,14 @@ h2 {
   font-size: 2em;
   margin: 1.5em 0 .5em 0;
 }
+h3 {
+  font-size: 1.714em;
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 1.429em;
+  margin: 1.5em 0 .5em 0;
+}
 
 
 
@@ -123,21 +131,20 @@ h2 {
   position: relative;
   height: 18.3em;
   width: 18.3em;
-}
-
-.ico-logo, .ico-circle {
-  position: absolute;
-}
-.ico-logo {
-  font-size: 12em;
-  right: 0;
-  bottom: 0;
-}
-.ico-circle {
-  color: #FFF;
-  font-size: 12em;
-  top: 0;
-  left: 0;
+  .ico-logo, .ico-circle {
+    position: absolute;
+  }
+  .ico-logo {
+    font-size: 12em;
+    right: 0;
+    bottom: 0;
+  }
+  .ico-circle {
+    color: #FFF;
+    font-size: 12em;
+    top: 0;
+    left: 0;
+  }
 }
 
 .logo:hover .ico-circle {
@@ -235,7 +242,7 @@ footer {
 
 /* typography in main content area */
 .main_column {
-  p, ul, ol, dl {
+  p, ul, ol, dl, hr {
     margin-bottom: 1.5em;
   }
 
@@ -325,6 +332,7 @@ nav {
 section {
   margin: 0 0 4.5em 0;
   padding: 0 3%;
+  clear: both;
 }
 
 
@@ -332,7 +340,6 @@ article {
   margin-bottom: 4.5em;
   header {
     margin-bottom: 1em;
-    padding-bottom: 1em;
     border-bottom: .1875em solid $color_mint;
   }
 }

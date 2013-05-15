@@ -4,20 +4,6 @@
 ---
 
 <style>
-  section, header, footer {display: block;}
-  body {
-    font-family: sans-serif;
-    color: #444;
-    line-height: 1.5;
-    font-size: 1em;
-  }
-  * {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
   .glyph {
     font-size: 14px;
     float: left;
@@ -38,38 +24,6 @@
     box-shadow: 0 0 0 1px #ccc;
     padding: .125em;
   }
-  .w-main {
-    width: 80%;
-  }
-  .centered {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .fs1 {
-    font-size: 2em;
-  }
-  header {
-    margin: 2em 0;
-    padding-bottom: .5em;
-    color: #666;
-    box-shadow: 0 2px #eee;
-  }
-  header h1 {
-    font-size: 2em;
-    font-weight: normal;
-  }
-  .clearfix:before, .clearfix:after { content: ""; display: table; }
-  .clearfix:after, .clear { clear: both; }
-  footer {
-    margin-top: 2em;
-    padding: .5em 0;
-    box-shadow: 0 -2px #eee;
-  }
-  a, a:visited {
-    color: #B35047;
-    text-decoration: none;
-  }
-  a:hover, a:focus {color: #000;}
   .box1 {
     font-size: 14px;
     display: inline-block;
@@ -79,12 +33,42 @@
     margin: .5em 1em .5em 0;
   }
 </style>
-  <div class="w-main centered">
-  <section class="mtm clearfix" id="glyphs">
-  <header>
-    <h1>Your font contains the following glyphs</h1>
-    <p>The generated SVG font can be imported back to <a href="http://icomoon.io/app">IcoMoon</a> for modification.</p>
-  </header>
+
+  <h1 id="styleguide">Styleguide</h1>
+
+
+  <section>
+    <h1 id="test_section">Test Section</h1>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h2 id="test_section">Test heading level 2</h2>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h3 id="test_section">Test heading level 3</h3>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h4 id="test_section">Test heading level 4</h4>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <h5 id="test_section">Test heading level 4</h5>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <blockquote>
+      <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </blockquote>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <ul>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+    </ul>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <ol>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+      <li>list item Lorem ipsum dolorcupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+    </ol>
+    <hr>
+    <p>Paragraph Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  </section>
+
+
+  <h2>Icon Font</h2>
   <div class="glyph">
     <div class="fs1" aria-hidden="true" data-icon="&#x2190;"></div>
     <input type="text" readonly="readonly" value="&amp;#x2190;" />
@@ -130,7 +114,7 @@
     <input type="text" readonly="readonly" value="&amp;#x73;" />
   </div>
   </section>
-  <div class="clear"></div>
+
   <section class="mtm clearfix" id="glyphs">
   <header>
     <h1>Class Names</h1>
@@ -182,6 +166,8 @@
   </section>
 
   </div>
+
+
   <script>
   document.getElementById("glyphs").addEventListener("click", function(e) {
     var target = e.target;
