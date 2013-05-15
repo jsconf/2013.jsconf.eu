@@ -248,42 +248,34 @@ footer {
 
   ul {
     list-style: none;
-  }
-
-  li {
-    position: relative;
-    margin-left: 1.5em;
-    padding-left: 1.5em;
-    text-indent: -.7em;
-  }
-
-  li:before {
-    content: "";
-    display: inline-block;
-    position: absolute;
-    top: .6em;
-    left: -1.5em;
-    width: 1em;
-    height: 5px;
-    background-color: $color_mint;
-  }
-
-  ul li, ol li {
-    li:before {
+    li {
+      position: relative;
+      margin-left: 1.5em;
+      padding-left: 1.5em;
+      text-indent: -.7em;
+    }
+    > li:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
       top: .6em;
-      left: -.75em;
-      width: .5em;
-      height: 3px;
+      left: -1.5em;
+      width: 1em;
+      height: 5px;
+      background-color: $color_mint;
     }
   }
+
 }
 
 
 
 blockquote {
-  font-style: italic;
   margin: 2.5em 1.5em 3em;
   color: $color_d_red;
+  p {
+    font-style: italic;
+  }
 }
 
 

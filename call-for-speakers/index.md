@@ -67,11 +67,11 @@ Here’s roughly how we pick our talks:
 
  * Anonymize submissions, so we don’t bias against anything related to the submitting person.
  * Two rounds of voting:
-   * The first round rates each talk on a scale from 1 to 10.
-   * The top-N (~50) submissions are rated again on a 3-point scale (“meh”, “yay”, “MUST HAVE”).
- * De-anonymize so we can (finally) bias against speaker details (based on our budget, we might opt for a local or at least closer-by (read: cheaper to transport) speaker).
+   1. The first round rates each talk on a scale from 1 to 10.
+   2. The top-N (~50) submissions are rated again on a 3-point scale: “meh”, “yay”, “MUST HAVE”.
+ * De-anonymize so we can (finally) bias against speaker details. Based on our budget, we might opt for a local or at least closer-by (read: cheaper to transport) speaker.
 
-(and a number of details that we make up as we go along)
+…and a number of details that we make up as we go along.
 
 We expect 100-200 excellent submissions for 30-40 speaking slots. The process helps us to select the right ones.
 
