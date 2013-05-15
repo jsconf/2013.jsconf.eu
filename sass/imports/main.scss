@@ -280,7 +280,7 @@ blockquote {
 }
 
 
-
+/* links */
 a,
 a:link,
 a:visited {
@@ -292,6 +292,7 @@ a:visited {
 a:hover,
 a:active,
 a:focus {
+  outline: none;
   color: $color_pink_hover;
   text-decoration: none;
 }
