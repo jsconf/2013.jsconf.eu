@@ -279,10 +279,12 @@ footer {
     margin-bottom: 4.5em;
     li {
       margin-left: 0;
-      padding-left: 0;
-      text-indent: 0;
       margin-bottom: 1.5em;
-      border-bottom: .1875em solid $color_mint;
+      padding: 1em;
+      border-top: .1875em solid $color_mint;
+      text-indent: 0;
+      background-color: tint($color_mint, 90%);
+
     }
     > li:before {
       display: none;
