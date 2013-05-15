@@ -48,6 +48,51 @@ Get in touch: [contact@jsconf.eu](mailto:contact@jsconf.eu ) (just don’t use t
 If you need more encouragement, check out co-organiser Tiffany’s site [We Are All Awesome](http://weareallaweso.me/) that tries to convince you to speak.
 
 
+#### Previous Speaker’s Experiences
+
+If you still need convincing, here are a few select quotes from previous year’s speakers:
+
+> “As a speaker, I was tread like royalty.” — [@ireneros][]
+
+> “I enjoyed all of the variety of the talks. There really was something for everyone.” — [@angelinamagnum][]
+
+> “If anything important or surprising was going to happen with JavaScript, it was going to happen here.” — [@stuartmemo][]
+
+> “I would speak again in a heartbeat.” — [@EamonLeonard][], [@rem][], [@angelinamagnum][]
+
+> “The staff & organizers were absolutely fabulous!” — [@nexxylove][]
+
+> “I heard that the talks are always amazing and I thought that getting the opportunity to speak alongside such wonderful speakers would be an honor. And it was. I also really appreciate the organizers’ dedication to diversity and creating an open and comfortable environment for all participants.” — [@ireneros][]
+
+> “It kick-started a speaking circuit.” — [@angelinamagnum][]
+
+> “I love the fact that off-the-wall talks are encouraged and promoted.” — [@johnbender][]
+
+> “Ever since, people keep asking me to do more public speaking.” — [@nexxylove][]
+
+> “I just felt like any other normal attendee — and that’s a good thing!” — [@jviereck][]
+
+> “I had a lot of offers for more public speaking based solely on my talk. It also gave me confidence to do other talks having done a big one like JSConf EU.” — [@stuartmemo][]
+
+> “The organizers were on point with everything, the accommodations were lovely, and all the participants were delightful to interact with.” — [@angelinamagnum][]
+
+> “I have seen an increased number of invitations to talk by other conferences.” — [@olov][]
+
+> “I most enjoyed the feedback and discussions afterwards. Seeing people's reaction to your talk is so so gratifying.” — [@stuartmemo][]
+
+> “Absolutely fantastic.” — [@mraleph][]
+
+[@ireneros]: https://twitter.com/ireneros
+[@johnbender]: https://twitter.com/johnbender
+[@nexxylove]: https://twitter.com/nexxylove
+[@jviereck]: https://twitter.com/jviereck
+[@EamonLeonard]: https://twitter.com/EamonLeonard
+[@rem]: https://twitter.com/rem
+[@angelinamagnum]: https://twitter.com/ireneros
+[@olov]: https://twitter.com/olov
+[@stuartmemo]: https://twitter.com/stuartmemo
+[@mraleph]: https://twitter.com/mraleph
+
 ## The Perks
 
 If you get selected as a speaker at JSConf EU, here’s what you get:
