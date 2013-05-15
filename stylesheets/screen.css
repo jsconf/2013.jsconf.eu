@@ -70,7 +70,7 @@ sup, sub {
 
 /* line 13, ../sass/imports/reset.scss */
 pre, code, tt {
-  font: 1em Menlo, "andale mono", "lucida console", monospace;
+  font: 1em Menlo,'andale mono','lucida console',monospace;
   line-height: 1.5;
 }
 
@@ -98,13 +98,13 @@ h1, h2, h3, h4, h5, nav, .button {
 /* line 20, ../sass/imports/main.scss */
 .main h1 {
   font-size: 2.5em;
-  margin: 0.5em 0;
+  margin: .5em 0;
 }
 
 /* line 25, ../sass/imports/main.scss */
 h2 {
   font-size: 2em;
-  margin: 1.5em 0 0.5em 0;
+  margin: 1.5em 0 .5em 0;
 }
 
 /* line 29, ../sass/imports/main.scss */
@@ -116,7 +116,7 @@ h3 {
 /* line 33, ../sass/imports/main.scss */
 h4 {
   font-size: 1.429em;
-  margin: 1.5em 0 0.5em 0;
+  margin: 1.5em 0 .5em 0;
 }
 
 /* line 41, ../sass/imports/main.scss */
@@ -151,7 +151,7 @@ h4 {
 /* line 65, ../sass/imports/main.scss */
 .social_nav a {
   display: inline-block;
-  padding: 0.25em 0;
+  padding: .25em 0;
 }
 
 /* line 72, ../sass/imports/main.scss */
@@ -175,8 +175,8 @@ h4 {
 .button:link,
 .button:visited {
   display: none;
-  margin: 0 auto 0.25em 0;
-  padding: 0.5em 1em;
+  margin: 0 auto .25em 0;
+  padding: .5em 1em;
   font-size: 1.5em;
   background-color: #e10079;
   color: #FFF;
@@ -461,7 +461,7 @@ nav ul {
 /* line 318, ../sass/imports/main.scss */
 nav li {
   display: inline-block;
-  padding: 0.2em 0.5em;
+  padding: .2em .5em;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-weight: bold;
@@ -657,7 +657,7 @@ you can use the generic selector below, but it's slower:
 
   /* line 16, ../sass/imports/mobile.scss */
   nav li {
-    padding: 0.2em 1em;
+    padding: .2em 1em;
   }
 
   /* line 22, ../sass/imports/mobile.scss */

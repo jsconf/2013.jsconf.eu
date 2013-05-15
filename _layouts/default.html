@@ -20,7 +20,7 @@
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
     <script src="/js/make-the-website-load-slower.js" async></script>
   </head>
-  <body>
+  <body{% if page.background %} class="{{ page.background }}"{%endif%}>
 
 
     <div class="top">
@@ -45,7 +45,7 @@
           <div class="tickets tickets_off">
             <a class="button" href="#"><span class="ico-ticket" aria-hidden="true"></span> Tickets: Soon</a>
             <p class="ticket_info">
-              Tickets not available yet. <a href="#">&raquo; FAQ</a>
+              Tickets not available yet. {%comment%}<a href="#">&raquo; FAQ{%endcomment%}</a>
             </p>
           </div>
 
@@ -90,10 +90,10 @@
               <a href="/call-for-speakers/">Call for Speakers</a>
             </li>
             <li>
-              <a href="/#schedule">Schedule</a>
+              <a href="/schedule/">Schedule</a>
             </li>
             <li>
-              <a href="/#location">Location</a>
+              <a href="/location/">Location</a>
             </li>
             <li>
               <a href="/about/">About</a>
