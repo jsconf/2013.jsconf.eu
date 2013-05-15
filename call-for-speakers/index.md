@@ -52,7 +52,7 @@ If you need more encouragement, check out co-organiser Tiffany’s site [We Are 
 
 If you still need convincing, here are a few select quotes from previous year’s speakers:
 
-> “As a speaker, I was tread like royalty.” — [@ireneros][]
+> “As a speaker, I was treated like royalty.” — [@ireneros][]
 
 > “I enjoyed all of the variety of the talks. There really was something for everyone.” — [@angelinamagnum][]
 
