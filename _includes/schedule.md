@@ -47,11 +47,11 @@ Other events worth going while in Europe:
 
 <ul class="schedule_list">
   <li>
-    <i>Sept 20th-22nd, Hamburg, Germany</i>
+    <i>Sept 20th&thinsp;-&thinsp;22nd, Hamburg, Germany</i>
     <h4><a href="http://nerdbo.at">Nerdbo.at</a></h4>
   </li>
   <li>
-    <i>Oct 2nd–3rd, Lisbon, Portugal</i>
+    <i>Oct 2nd&thinsp;–&thinsp;3rd, Lisbon, Portugal</i>
     <h4><a href="http://lxjs.org">lx.js</a></h4>
   </li>
 </ul>
