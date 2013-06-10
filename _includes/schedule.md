@@ -46,12 +46,27 @@ Everything from here is included in the conference ticket:
 Other events worth going while in Europe:
 
 <ul class="schedule_list">
+
+  <li>
+    <i>Sept 19th&thinsp;–&thinsp;20th, Berlin, Germany</i>
+    <h4><a href="http://monitorama.eu">Monitorama EU</a></h4>
+  </li>
+
+  <li>
+    <i>Sept 19th&thinsp;–&thinsp;20th, Hamburg, Germany</i>
+    <h4><a href="http://socoded.com">Socoded</a></h4>
+    <small>(You can do Socoded &amp; Nerdboat back to back)</small>
+  </li>
+
   <li>
     <i>Sept 20th&thinsp;-&thinsp;22nd, Hamburg, Germany</i>
     <h4><a href="http://nerdbo.at">Nerdbo.at</a></h4>
+    <small>(You can do Socoded &amp; Nerdboat back to back)</small>
   </li>
+
   <li>
     <i>Oct 2nd&thinsp;–&thinsp;3rd, Lisbon, Portugal</i>
     <h4><a href="http://lxjs.org">lx.js</a></h4>
   </li>
+
 </ul>
