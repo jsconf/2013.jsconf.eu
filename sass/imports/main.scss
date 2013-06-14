@@ -70,7 +70,11 @@ h4 {
 
 
 .tickets_on {
-  display: none;
+  .button, .button:link, .button:visited, .button:hover, .button:focus {
+    background: $color_pink;
+    color: #FFF;
+    cursor: default;
+  }
 }
 
 .ticket_info {
@@ -81,6 +85,16 @@ h4 {
     font-size: .75em;
   }
 }
+
+.tickets_off {
+  display: none;
+  .button, .button:link, .button:visited, .button:hover, .button:focus {
+    background: $color_beige;
+    color: #FFF;
+    cursor: default;
+  }
+}
+
 .button,
 .button:link,
 .button:visited {
@@ -108,13 +122,7 @@ h4 {
   }
 }
 
-.tickets_off {
-  .button, .button:link, .button:visited, .button:hover, .button:focus {
-    background: $color_beige;
-    color: #FFF;
-    cursor: default;
-  }
-}
+
 
 
 /* stage */

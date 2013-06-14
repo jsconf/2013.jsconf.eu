@@ -70,7 +70,7 @@ sup, sub {
 
 /* line 13, ../sass/imports/reset.scss */
 pre, code, tt {
-  font: 1em Menlo, "andale mono", "lucida console", monospace;
+  font: 1em Menlo,'andale mono','lucida console',monospace;
   line-height: 1.5;
 }
 
@@ -98,13 +98,13 @@ h1, h2, h3, h4, h5, nav, .button {
 /* line 20, ../sass/imports/main.scss */
 .main h1 {
   font-size: 2.5em;
-  margin: 0.5em 0;
+  margin: .5em 0;
 }
 
 /* line 25, ../sass/imports/main.scss */
 h2 {
   font-size: 2em;
-  margin: 1.5em 0 0.5em 0;
+  margin: 1.5em 0 .5em 0;
 }
 
 /* line 29, ../sass/imports/main.scss */
@@ -151,32 +151,45 @@ h4 {
 /* line 65, ../sass/imports/main.scss */
 .social_nav a {
   display: inline-block;
-  padding: 0.25em 0;
+  padding: .25em 0;
 }
 
-/* line 72, ../sass/imports/main.scss */
-.tickets_on {
-  display: none;
+/* line 73, ../sass/imports/main.scss */
+.tickets_on .button, .tickets_on .button:link, .tickets_on .button:visited, .tickets_on .button:hover, .tickets_on .button:focus {
+  background: #e10079;
+  color: #FFF;
+  cursor: default;
 }
 
-/* line 76, ../sass/imports/main.scss */
+/* line 80, ../sass/imports/main.scss */
 .ticket_info {
   margin-bottom: 0;
   text-align: center;
 }
-/* line 79, ../sass/imports/main.scss */
+/* line 83, ../sass/imports/main.scss */
 .ticket_info i {
   display: block;
   font-size: .75em;
 }
 
-/* line 86, ../sass/imports/main.scss */
+/* line 89, ../sass/imports/main.scss */
+.tickets_off {
+  display: none;
+}
+/* line 91, ../sass/imports/main.scss */
+.tickets_off .button, .tickets_off .button:link, .tickets_off .button:visited, .tickets_off .button:hover, .tickets_off .button:focus {
+  background: #f5e8d7;
+  color: #FFF;
+  cursor: default;
+}
+
+/* line 100, ../sass/imports/main.scss */
 .button,
 .button:link,
 .button:visited {
   display: none;
-  margin: 0 auto 0.25em 0;
-  padding: 0.5em 1em;
+  margin: 0 auto .25em 0;
+  padding: .5em 1em;
   font-size: 1.5em;
   background-color: #e10079;
   color: #FFF;
@@ -188,7 +201,7 @@ h4 {
   letter-spacing: .05em;
   cursor: pointer;
 }
-/* line 100, ../sass/imports/main.scss */
+/* line 114, ../sass/imports/main.scss */
 .button:hover, .button:focus,
 .button:link:hover,
 .button:link:focus,
@@ -197,7 +210,7 @@ h4 {
   background-color: #fe006b;
   color: #FFF;
 }
-/* line 104, ../sass/imports/main.scss */
+/* line 118, ../sass/imports/main.scss */
 .button span,
 .button:link span,
 .button:visited span {
@@ -206,22 +219,15 @@ h4 {
   vertical-align: middle;
 }
 
-/* line 112, ../sass/imports/main.scss */
-.tickets_off .button, .tickets_off .button:link, .tickets_off .button:visited, .tickets_off .button:hover, .tickets_off .button:focus {
-  background: #f5e8d7;
-  color: #FFF;
-  cursor: default;
-}
-
 /* stage */
-/* line 122, ../sass/imports/main.scss */
+/* line 130, ../sass/imports/main.scss */
 .stage {
   border-top: 1em solid #f5e8d7;
   border-bottom: 1em solid #f5e8d7;
   overflow: hidden;
 }
 
-/* line 128, ../sass/imports/main.scss */
+/* line 136, ../sass/imports/main.scss */
 .logo {
   margin: 1em 0;
   float: right;
@@ -229,17 +235,17 @@ h4 {
   height: 18.3em;
   width: 18.3em;
 }
-/* line 134, ../sass/imports/main.scss */
+/* line 142, ../sass/imports/main.scss */
 .logo .ico-logo, .logo .ico-circle {
   position: absolute;
 }
-/* line 137, ../sass/imports/main.scss */
+/* line 145, ../sass/imports/main.scss */
 .logo .ico-logo {
   font-size: 12em;
   right: 0;
   bottom: 0;
 }
-/* line 142, ../sass/imports/main.scss */
+/* line 150, ../sass/imports/main.scss */
 .logo .ico-circle {
   color: #FFF;
   font-size: 12em;
@@ -247,7 +253,7 @@ h4 {
   left: 0;
 }
 
-/* line 150, ../sass/imports/main.scss */
+/* line 158, ../sass/imports/main.scss */
 .logo:hover .ico-circle {
   -webkit-animation-name: spin;
   -webkit-animation-duration: 500ms;
@@ -265,103 +271,103 @@ h4 {
 }
 
 @-moz-keyframes spin {
-  /* line 167, ../sass/imports/main.scss */
+  /* line 175, ../sass/imports/main.scss */
   from {
     -moz-transform: rotate(0deg);
   }
 
-  /* line 168, ../sass/imports/main.scss */
+  /* line 176, ../sass/imports/main.scss */
   to {
     -moz-transform: rotate(360deg);
   }
 }
 
 @-webkit-keyframes spin {
-  /* line 171, ../sass/imports/main.scss */
+  /* line 179, ../sass/imports/main.scss */
   from {
     -webkit-transform: rotate(0deg);
   }
 
-  /* line 172, ../sass/imports/main.scss */
+  /* line 180, ../sass/imports/main.scss */
   to {
     -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes spin {
-  /* line 175, ../sass/imports/main.scss */
+  /* line 183, ../sass/imports/main.scss */
   from {
     transform: rotate(0deg);
   }
 
-  /* line 176, ../sass/imports/main.scss */
+  /* line 184, ../sass/imports/main.scss */
   to {
     transform: rotate(360deg);
   }
 }
 
-/* line 181, ../sass/imports/main.scss */
+/* line 189, ../sass/imports/main.scss */
 .stage {
   width: 100%;
   overflow: hidden;
   background: #012019 no-repeat 50% 0;
 }
 
-/* line 186, ../sass/imports/main.scss */
+/* line 194, ../sass/imports/main.scss */
 .background0 .stage {
   background-image: url("/img/top_bollocks.jpg");
   background-position: 50% 70%;
   background-color: #34003e;
 }
 
-/* line 191, ../sass/imports/main.scss */
+/* line 199, ../sass/imports/main.scss */
 .background1 .stage {
   background-image: url("/img/top_draw.jpg");
   background-position: 50% 70%;
   background-color: #929196;
 }
 
-/* line 196, ../sass/imports/main.scss */
+/* line 204, ../sass/imports/main.scss */
 .background2 .stage {
   background-image: url("/img/top_group.jpg");
   background-position: 50% 40%;
 }
 
-/* line 200, ../sass/imports/main.scss */
+/* line 208, ../sass/imports/main.scss */
 .background3 .stage {
   background-image: url("/img/top_mandy_jed.jpg");
   background-position: 50% 40%;
   background-color: #440b40;
 }
 
-/* line 205, ../sass/imports/main.scss */
+/* line 213, ../sass/imports/main.scss */
 .background4 .stage {
   background-image: url("/img/top_disco.jpg");
   background-position: 50% 50%;
   background-color: #440b40;
 }
 
-/* line 210, ../sass/imports/main.scss */
+/* line 218, ../sass/imports/main.scss */
 .background5 .stage {
   background-image: url("/img/top_fragment.jpg");
   background-position: 50% 70%;
   background-color: #004bcc;
 }
 
-/* line 215, ../sass/imports/main.scss */
+/* line 223, ../sass/imports/main.scss */
 .background6 .stage {
   background-image: url("/img/top_bubble.jpg");
   background-position: 50% 70%;
   background-color: #670141;
 }
 
-/* line 220, ../sass/imports/main.scss */
+/* line 228, ../sass/imports/main.scss */
 .background7 .stage {
   background-image: url("/img/top_punk.jpg");
   background-repeat: repeat;
 }
 
-/* line 224, ../sass/imports/main.scss */
+/* line 232, ../sass/imports/main.scss */
 .background8 .stage {
   background-image: url("/img/top_pattern.jpg");
   background-position: 50% 60%;
@@ -369,14 +375,14 @@ h4 {
 }
 
 /* main content area */
-/* line 233, ../sass/imports/main.scss */
+/* line 241, ../sass/imports/main.scss */
 nav {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
 
 /* sponsors */
-/* line 238, ../sass/imports/main.scss */
+/* line 246, ../sass/imports/main.scss */
 .sponsors {
   padding: 2em 0;
   border-top: 1px solid #f5e8d7;
@@ -384,7 +390,7 @@ nav {
 }
 
 /* footer */
-/* line 245, ../sass/imports/main.scss */
+/* line 253, ../sass/imports/main.scss */
 footer {
   padding: 2em 0;
   border-top: 0.5em solid #c6e3d9;
@@ -394,22 +400,22 @@ footer {
 }
 
 /* typography in main content area */
-/* line 255, ../sass/imports/main.scss */
+/* line 263, ../sass/imports/main.scss */
 .main_column p, .main_column ul, .main_column ol, .main_column dl, .main_column hr, .main_column address {
   margin-bottom: 1.5em;
 }
-/* line 259, ../sass/imports/main.scss */
+/* line 267, ../sass/imports/main.scss */
 .main_column ul {
   list-style: none;
 }
-/* line 261, ../sass/imports/main.scss */
+/* line 269, ../sass/imports/main.scss */
 .main_column ul li {
   position: relative;
   margin-left: 1.5em;
   padding-left: 1.5em;
   text-indent: -.7em;
 }
-/* line 267, ../sass/imports/main.scss */
+/* line 275, ../sass/imports/main.scss */
 .main_column ul > li:before {
   content: "";
   display: inline-block;
@@ -420,11 +426,11 @@ footer {
   height: 5px;
   background-color: #c6e3d9;
 }
-/* line 278, ../sass/imports/main.scss */
+/* line 286, ../sass/imports/main.scss */
 .main_column .schedule_list {
   margin-bottom: 4.5em;
 }
-/* line 280, ../sass/imports/main.scss */
+/* line 288, ../sass/imports/main.scss */
 .main_column .schedule_list li {
   margin-left: 0;
   margin-bottom: 1.5em;
@@ -433,29 +439,29 @@ footer {
   text-indent: 0;
   background-color: #f9fcfb;
 }
-/* line 289, ../sass/imports/main.scss */
+/* line 297, ../sass/imports/main.scss */
 .main_column .schedule_list > li:before {
   display: none;
 }
-/* line 292, ../sass/imports/main.scss */
+/* line 300, ../sass/imports/main.scss */
 .main_column .schedule_list i {
   display: block;
   color: #74b4b0;
   font-style: italic;
 }
 
-/* line 303, ../sass/imports/main.scss */
+/* line 311, ../sass/imports/main.scss */
 blockquote {
   margin: 2.5em 1.5em 3em;
   color: #4c0025;
 }
-/* line 306, ../sass/imports/main.scss */
+/* line 314, ../sass/imports/main.scss */
 blockquote p {
   font-style: italic;
 }
 
 /* links */
-/* line 315, ../sass/imports/main.scss */
+/* line 323, ../sass/imports/main.scss */
 a,
 a:link,
 a:visited {
@@ -467,7 +473,7 @@ a:visited {
   transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 
-/* line 323, ../sass/imports/main.scss */
+/* line 331, ../sass/imports/main.scss */
 a:hover,
 a:active,
 a:focus {
@@ -476,26 +482,26 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 331, ../sass/imports/main.scss */
+/* line 339, ../sass/imports/main.scss */
 nav ul {
   margin: 1em 0;
   text-align: center;
 }
-/* line 335, ../sass/imports/main.scss */
+/* line 343, ../sass/imports/main.scss */
 nav li {
   display: inline-block;
-  padding: 0.2em 0.5em;
+  padding: .2em .5em;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-weight: bold;
 }
 
-/* line 343, ../sass/imports/main.scss */
+/* line 351, ../sass/imports/main.scss */
 .main {
   padding: 3em 0;
 }
 
-/* line 347, ../sass/imports/main.scss */
+/* line 355, ../sass/imports/main.scss */
 .main_column {
   max-width: 640px;
   margin: 0 auto;
@@ -503,25 +509,25 @@ nav li {
   overflow: hidden;
 }
 
-/* line 354, ../sass/imports/main.scss */
+/* line 362, ../sass/imports/main.scss */
 section {
   margin: 0 0 4.5em 0;
   padding: 0 3%;
   clear: both;
 }
 
-/* line 361, ../sass/imports/main.scss */
+/* line 369, ../sass/imports/main.scss */
 article {
   margin-bottom: 4.5em;
 }
-/* line 363, ../sass/imports/main.scss */
+/* line 371, ../sass/imports/main.scss */
 article header {
   margin-bottom: 1em;
   border-bottom: 0.1875em solid #c6e3d9;
 }
 
 /* fluid iframes */
-/* line 370, ../sass/imports/main.scss */
+/* line 378, ../sass/imports/main.scss */
 .embed_container {
   position: relative;
   margin-bottom: 1.5em;
@@ -531,7 +537,7 @@ article header {
   overflow: hidden;
 }
 
-/* line 380, ../sass/imports/main.scss */
+/* line 388, ../sass/imports/main.scss */
 .embed_container iframe,
 .embed_container img {
   position: absolute;
@@ -541,25 +547,25 @@ article header {
   height: 100%;
 }
 
-/* line 388, ../sass/imports/main.scss */
+/* line 396, ../sass/imports/main.scss */
 .person {
   position: relative;
   display: inline-block;
   margin-right: 2em;
 }
-/* line 392, ../sass/imports/main.scss */
+/* line 400, ../sass/imports/main.scss */
 .person span {
   position: absolute;
   bottom: 1em;
   right: 1em;
   color: #fbf6ef;
 }
-/* line 398, ../sass/imports/main.scss */
+/* line 406, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
 
-/* line 403, ../sass/imports/main.scss */
+/* line 411, ../sass/imports/main.scss */
 .date {
   color: #74b4b0;
   font-size: .875em;
@@ -681,7 +687,7 @@ you can use the generic selector below, but it's slower:
 
   /* line 16, ../sass/imports/mobile.scss */
   nav li {
-    padding: 0.2em 1em;
+    padding: .2em 1em;
   }
 
   /* line 22, ../sass/imports/mobile.scss */
