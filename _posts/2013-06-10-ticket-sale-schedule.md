@@ -18,3 +18,4 @@ tags: news
 - Price: 575€ + VAT + Fees = <strong>€699</strong>
 - Ticket sales will be done through <a href="https://tito.io/">Tito</a>
 - You will need a Paypal account!
+- [Info graphic about cost structure](/news/2013/06/15/how-we-spend-your-money.html)
