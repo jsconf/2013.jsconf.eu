@@ -15,5 +15,6 @@ tags: news
 
 <h4>Sale process:</h4>
 
+- Price: 575€ + VAT + Fees = <strong>€699</strong>
 - Ticket sales will be done through <a href="https://tito.io/">Tito</a>
 - You will need a Paypal account!
