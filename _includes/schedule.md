@@ -16,6 +16,10 @@ There will be lots more info here in the future!
     <h4>Pre event 3</h4>
     <p>To be announced</p>
   </li>
+  <li>
+    <i>Sept 13, Friday</i>
+    <h4><a href="http://2013.cssconf.eu">CSSConf EU</a></h4>
+  </li>
 </ul>
 
 Everything from here is included in the conference ticket:
