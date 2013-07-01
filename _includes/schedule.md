@@ -8,13 +8,11 @@ There will be lots more info here in the future!
   </li>
   <li>
     <i>Sept 12, Thursday</i>
-    <h4>Pre event 2</h4>
-    <p>To be announced</p>
+    <h4><a href="http://rejectjs.org">Reject.JS 2013</a></h4>
   </li>
   <li>
     <i>Sept 13, Friday</i>
-    <h4>Pre event 3</h4>
-    <p>To be announced</p>
+    <h4><a href="http://nodecopter.com">NodeCopter</a></h4>
   </li>
   <li>
     <i>Sept 13, Friday</i>
