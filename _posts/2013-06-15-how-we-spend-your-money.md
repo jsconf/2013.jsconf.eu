@@ -7,7 +7,7 @@ tags: news
 
 {% include header.md %}
 
-Switch to landscape view on your phone :)
-
-<iframe class="zoo" src="//infogr.am/A-JSConf-EU-Ticket" width="560" height="3707" scrolling="no" frameborder="0" style="border:none;">
-</iframe>
+<a href="http://jsbin.com/awixot/1/quiet">
+  <img src="/img/infographic.png" width="487" height="408" /><br />
+  Click here to view infographic.
+</a>
