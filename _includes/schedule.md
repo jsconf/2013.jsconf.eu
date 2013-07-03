@@ -50,6 +50,11 @@ Other events worth going while in Europe:
 <ul class="schedule_list">
 
   <li>
+    <i>Sept 16th&thinsp;–&thinsp;18th, Geneva, Switzerland</i>
+    <h4><a href="http://okcon.org/schedule/">Open Knowledge Conference</a></h4>
+  </li>
+
+  <li>
     <i>Sept 19th&thinsp;–&thinsp;20th, Berlin, Germany</i>
     <h4><a href="http://monitorama.eu">Monitorama EU</a></h4>
   </li>
