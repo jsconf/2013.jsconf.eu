@@ -5,7 +5,7 @@
 ---
 
 
-# Call for Speakers
+# The Call for Speakers has ended.
 
 > “JSConf EU — This is your conference.”
 
