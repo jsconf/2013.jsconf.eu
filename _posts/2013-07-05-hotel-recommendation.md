@@ -15,7 +15,7 @@ tags: news
 
 We recommend you stay with <a href="http://www.ibis.com/gb/hotel-3108-ibis-berlin-ostbahnhof/index.shtml" target="_blank">Ibis Ostbahnhof</a>. Not because it is the best hotel around (it isn't!), but because it is literally right next to our venue – as in the next house. After JSConf in the US has started using resorts as their destination in 2012 we realized how great it is to have everybody in a single place, so we did the best we could given that Berlin is neither Arizona nor Florida :)
 
-Still we're going to try to have a campfire at the conference and with the hotel right next door, you can stay late and still only fall over twice to get to your bed.
+Still we're going to try to have a campfire at the conference and with the hotel right next door, you can stay late and still only fall over twice to get to your bed. Of course, this is also the same hotel where all speakers and staff will be staying.
 
 <div class="embed_container">
   <a href="http://developer.yahoo.com/blogs/ydn/jsconf-2013-5-years-awesome-183605209.html" target="_blank"><img width="560" height="420"
