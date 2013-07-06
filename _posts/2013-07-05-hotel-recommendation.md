@@ -31,6 +31,6 @@ The room rates with the JSConf EU code are:
 
  Reviews say the rooms are smallish, so you may want to consider a double room even if you are by yourself.
 
- Remember that the conference has breakfast, so you probably don't want to purchase it with your room. The rates do not include WIFI but it is available. In the worst case you may also be able to lean out of your room window and catch the conference WIFI :)
+ The prices include breakfast. The conference has breakfast (likely significantly better), so you may want to actually pick a rate that doesn't have it. The rates do not include WIFI but it is available. In the worst case you may also be able to lean out of your room window and catch the conference WIFI :)
 
- To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. If you really, really hate phone calls, maybe the default online rates are fine, too :)
+ To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. If you really, really hate phone calls, maybe the default online rates are fine, too :) .
