@@ -23,6 +23,8 @@ Still we're going to try to have a campfire at the conference and with the hotel
     alt="Campfire at JSConf US 2013"></a>
 </div>
 
+For now we recommend you <a rel="nofollow" href="http://www.ibis.com/gb/hotel-3108-ibis-berlin-ostbahnhof/index.shtml" target="_blank">book directly online</a> on their site. They do have a great double room with WIFI offer for the time of the conference.
+
 The room rates with the JSConf EU code are:
 
  * Single Room - 81 €
