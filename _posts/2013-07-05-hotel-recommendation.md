@@ -23,8 +23,6 @@ Still we're going to try to have a campfire at the conference and with the hotel
     alt="Campfire at JSConf US 2013"></a>
 </div>
 
-For now we recommend you <a rel="nofollow" href="http://www.ibis.com/gb/hotel-3108-ibis-berlin-ostbahnhof/index.shtml" target="_blank">book directly online</a> on their site. They do have a great double room with WIFI offer for the time of the conference (But beware extra taxes communicated only late in the process when comparing to the prices below). If you book online, <a href="https://docs.google.com/forms/d/1_EqSd8d8F26nZGLqiBhTY3g7BnYUSw5xHJ8C1ROj3gE/viewform">please let us know</a>, so we have an idea how many people are there.
-
 The room rates with the JSConf EU code are:
 
  * Single Room - 81 €
@@ -35,4 +33,6 @@ The room rates with the JSConf EU code are:
 
  The prices include breakfast. The conference has breakfast (likely significantly better), so you may want to actually pick a rate that doesn't have it. The rates do not include WIFI but it is available. In the worst case you may also be able to lean out of your room window and catch the conference WIFI :)
 
- To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. If you really, really hate phone calls, maybe the default online rates are fine, too :) .
+ To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. You may also email h3108@accor.com CC info@marinaos.com to make a reservation.
+
+ If you really, really hate phone calls and emails, maybe the default online rates are fine, too :) . If you book online, <a href="https://docs.google.com/forms/d/1_EqSd8d8F26nZGLqiBhTY3g7BnYUSw5xHJ8C1ROj3gE/viewform">please let us know</a>, so we have an idea how many people are there.
