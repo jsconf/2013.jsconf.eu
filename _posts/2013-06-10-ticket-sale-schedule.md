@@ -38,5 +38,6 @@ A JSConf EU Ticket buys you the following things:
 - Entry to the conference on September 14th & 15th.
 - Entry to the opening and closing parties on the 13th and 15th.
 - Entry to the main conference party on the night of the 14th.
+- Entry to relax.js on the 16th.
 - Extensive and delicious breakfast on the 14th & 15th. Do skip your hotel breakfast.
 - Fabulous lunch on the 14th & 15th and dinner on the 14th.
