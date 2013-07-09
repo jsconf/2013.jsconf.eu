@@ -29,10 +29,12 @@ The room rates with the JSConf EU code are:
  * Double Room - 101 €
  * Triple Room - 126 €
 
- Reviews say the rooms are smallish, so you may want to consider a double room even if you are by yourself.
+Reviews say the rooms are smallish, so you may want to consider a double room even if you are by yourself.
 
- The prices include breakfast. The conference has breakfast (likely significantly better), so you may want to actually pick a rate that doesn't have it. The rates do not include WIFI but it is available. In the worst case you may also be able to lean out of your room window and catch the conference WIFI :)
+The prices include breakfast. The conference has breakfast (likely significantly better), so you may want to actually pick a rate that doesn't have it. The rates do not include WIFI but it is available. In the worst case you may also be able to lean out of your room window and catch the conference WIFI :)
 
- To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. You may also email h3108@accor.com CC info@marinaos.com to make a reservation.
+To book the room for the above rate call +4930257600 and mention the code **MOS13**. It does not work through online booking. You may also email h3108@accor.com CC info@marinaos.com to make a reservation.
 
- If you really, really hate phone calls and emails, maybe the default online rates are fine, too :) . If you book online, <a href="https://docs.google.com/forms/d/1_EqSd8d8F26nZGLqiBhTY3g7BnYUSw5xHJ8C1ROj3gE/viewform">please let us know</a>, so we have an idea how many people are there.
+If you really, really hate phone calls and emails, maybe the default online rates are fine, too :) .
+
+After you booked, <a href="https://docs.google.com/forms/d/1_EqSd8d8F26nZGLqiBhTY3g7BnYUSw5xHJ8C1ROj3gE/viewform">please let us know</a>, so we have an idea how many of you are there.
