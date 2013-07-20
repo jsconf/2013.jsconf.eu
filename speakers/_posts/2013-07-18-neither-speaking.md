@@ -1,7 +1,7 @@
 ---
 layout: default
-category: speaker
 tags: speaker
+permalink: /speakers/neither-speaking.html
 title: Other talk
 speaker: Foo Bar
 talk: This is a talk title

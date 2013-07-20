@@ -572,6 +572,12 @@ article header {
   font-style: italic;
 }
 
+/* line 418, ../sass/imports/main.scss */
+.description img {
+  width: 200px;
+  float: left;
+}
+
 @font-face {
   font-family: 'jsconfeu';
   src: url("/fonts/jsconfeu.eot");
