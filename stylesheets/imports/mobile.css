@@ -39,10 +39,16 @@
   .social_nav, .ticket_info {
     font-size: .875em;
   }
+
+  /* line 34, ../../sass/imports/mobile.scss */
+  .speaker_avatar {
+    float: left;
+    margin-right: 2em;
+  }
 }
 /* --------------- Screens bigger than 768px ----------- */
 @media only screen and (min-width: 768px) {
-  /* line 37, ../../sass/imports/mobile.scss */
+  /* line 45, ../../sass/imports/mobile.scss */
   .main_column {
     width: 100%;
     overflow: hidden;
@@ -75,12 +81,12 @@
       overflow: hidden;
       padding: 1.5em 4%;
     }*/
-  /* line 71, ../../sass/imports/mobile.scss */
+  /* line 79, ../../sass/imports/mobile.scss */
   .stage {
     min-height: 460px;
   }
 
-  /* line 74, ../../sass/imports/mobile.scss */
+  /* line 82, ../../sass/imports/mobile.scss */
   .social_nav, .ticket_info {
     font-size: 1em;
   }
