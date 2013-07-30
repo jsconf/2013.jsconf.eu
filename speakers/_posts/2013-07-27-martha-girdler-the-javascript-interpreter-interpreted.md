@@ -1,0 +1,22 @@
+---
+layout: default
+tags: speaker
+title: "The JavaScript Interpreter, Interpreted – Martha Girdler"
+permalink: "/speakers/martha-girdler-the-javascript-interpreter-interpreted.html"
+speaker: Martha Girdler
+talk: "The JavaScript Interpreter, Interpreted"
+website: "http://marthakelly.github.io/"
+twitter: "https://twitter.com/marthakelly"
+github: "https://github.com/marthakelly"
+gplus: ""
+from: "USA, Nashville"
+description: "JavaScript is misunderstood. It looks like C, acts like Lisp, but deviates in important and confusing ways. It can mimic classical behavior but is built on prototypes. It has blocks but doesn’t provide block scope. Then, throw in the magical “this” keyword and we have a recipe for interpreted disaster. Understanding how JavaScript creates and executes function objects is key to understanding JavaScript. In this talk we'll walk through the JavaScript interpreter in an easy-to-follow no-confusing-jargon manner. You'll leave with a better understanding of vanilla JavaScript!"
+image:
+  width: 500
+  height: 500
+  type: jpg
+  heightSite: 200
+  filename: "/speakers/images/martha-girdler.jpg"
+---
+
+{% include speaker.md %}

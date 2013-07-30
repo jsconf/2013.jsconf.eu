@@ -1,10 +1,10 @@
-{% if page.website %}
+{% if page.website != "" %}
   {% assign website=page.website %}
-{% elsif page.twitter %}
+{% elsif page.twitter != ""  %}
   {% assign website=page.twitter %}
-{% elsif page.gplus %}
+{% elsif page.gplus != ""  %}
   {% assign website=page.gplus %}
-{% elsif page.github %}
+{% elsif page.github != ""  %}
   {% assign website=page.github %}
 {% endif %}
 
@@ -24,11 +24,11 @@
     </div>
 
     <ul class="info">
-      {% if page.from %}<li>» <a href="https://www.google.com/maps/preview#!q={{ page.from }}"  target="_blank">{{ page.from }}</a></li>{% endif %}
-      {% if page.website %}<li>» <a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
-      {% if page.github %}<li>» <a href="{{ page.github }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
-      {% if page.twitter %}<li>» <a href="{{ page.twitter }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
-      {% if page.gplus %}<li>» <a href="{{ page.gplus }}" itemprop="url" target="_blank">Google+</a></li>{% endif %}
+      {% if page.from != "" %}<li>» <a href="https://www.google.com/maps/preview#!q={{ page.from }}"  target="_blank">{{ page.from != ""  }}</a></li>{% endif %}
+      {% if page.website != ""  %}<li>» <a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
+      {% if page.github != ""  %}<li>» <a href="{{ page.github }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
+      {% if page.twitter != ""  %}<li>» <a href="{{ page.twitter }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
+      {% if page.gplus != ""  %}<li>» <a href="{{ page.gplus }}" itemprop="url" target="_blank">Google+</a></li>{% endif %}
     </ul>
   </section>
 </div>
