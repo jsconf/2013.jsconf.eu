@@ -1,0 +1,22 @@
+---
+layout: default
+tags: speaker
+title: "Everything you never wanted to know about JavaScript numbers (and you didn't know you could ask) – Bartek Szopka"
+permalink: "/speakers/bartek-szopka-everything-you-never-wanted-to-know-about-javascript-numbers-and-you-didnt-know-you-could-ask.html"
+speaker: Bartek Szopka
+talk: "Everything you never wanted to know about JavaScript numbers (and you didn't know you could ask)"
+website: ""
+twitter: twitter.com/bartaz
+github: "https://github.com/bartaz"
+gplus: ""
+from: Poland / Poznań
+description: "All the ECMAScript standard says about Numbers in JavaScript is that they are represented by \"the double-precision 64-bit format IEEE 754 values as specified in the IEEE Standard for Binary Floating-Point Arithmetic\" and, while understanding the binary representation of JavaScript numbers is not necessary in your day-to-day programming, it's really worth digging into as it opens up the brave new world of questions you never thought you could ask (why is 0.1 not exactly what it is? how does Infinity look like? is there more than one zero? why the hell it's called floating point?) and, more importantly, allows us to find answers to them."
+image: 
+  width: 1918
+  height: 1918
+  type: jpeg
+  heightSite: 200
+  filename: "/speakers/images/bartek-szopka.jpeg"
+---
+
+{% include speaker.md %}
