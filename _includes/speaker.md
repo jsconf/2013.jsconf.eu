@@ -27,7 +27,7 @@
       {% if page.from != "" %}<li>» <a href="https://www.google.com/maps/preview#!q={{ page.from }}"  target="_blank">{{ page.from != ""  }}</a></li>{% endif %}
       {% if page.website != ""  %}<li>» <a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
       {% if page.github != ""  %}<li>» <a href="{{ page.github }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
-      {% if page.twitter != ""  %}<li>» <a href="{{ page.twitter }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
+      {% if page.twitter != ""  %}<li>» <a href="https://twitter.com/{{ page.twitter }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
       {% if page.gplus != ""  %}<li>» <a href="{{ page.gplus }}" itemprop="url" target="_blank">Google+</a></li>{% endif %}
     </ul>
   </section>
