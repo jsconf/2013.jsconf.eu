@@ -6,7 +6,7 @@ permalink: "/speakers/bartek-szopka-everything-you-never-wanted-to-know-about-ja
 speaker: Bartek Szopka
 talk: "Everything you never wanted to know about JavaScript numbers (and you didn't know you could ask)"
 website: ""
-twitter: bartaz
+twitter: "https://twitter.com/bartaz"
 github: "https://github.com/bartaz"
 gplus: ""
 from: Poland / Poznań

@@ -6,7 +6,7 @@ permalink: "/speakers/allen-pike-nativejs-javascript-in-your-native-apps.html"
 speaker: Allen Pike
 talk: "native.js: JavaScript in your native apps"
 website: "http://allenpike.com/"
-twitter: apike
+twitter: "https://twitter.com/apike"
 github: "http://www.github.com/apike"
 gplus: "https://plus.google.com/115189793104525758622"
 from: Vancouver

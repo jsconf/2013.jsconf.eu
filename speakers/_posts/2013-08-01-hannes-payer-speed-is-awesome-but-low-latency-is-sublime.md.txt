@@ -1,0 +1,22 @@
+---
+layout: default
+tags: speaker
+title: "Speed is awesome, but low latency is sublime – Hannes Payer"
+permalink: "/speakers/hannes-payer-speed-is-awesome-but-low-latency-is-sublime.html"
+speaker: Hannes Payer
+talk: "Speed is awesome, but low latency is sublime"
+website: ""
+twitter: ""
+github: ""
+gplus: ""
+from: Munich
+description: "Large JavaScript applications are facing new challenges on mobile devices, where it is not possible to guarantee interactivity and responsiveness with raw throughput alone. Traditionally, JavaScript implementations focused on improving execution speed of JavaScript applications on desktop machines, where high-performance virtual machines allowed application developers to write JavaScript applications of several million lines of code that ran well on them. However, on mobile devices, low latency rather than throughput is key to keep the user happy and make web applications ubiquitous."
+image: 
+  width: 190
+  height: 235
+  type: png
+  heightSite: 247.3684210526316
+  filename: "/speakers/images/hannes-payer.png"
+---
+
+{% include speaker.md %}

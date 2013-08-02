@@ -1,0 +1,22 @@
+---
+layout: default
+tags: speaker
+title: "For the next generation: JavaScript education for a better JavaScript – Pam Selle"
+permalink: "/speakers/pam-selle-for-the-next-generation-javascript-education-for-a-better-javascript.html"
+speaker: Pam Selle
+talk: "For the next generation: JavaScript education for a better JavaScript"
+website: "http://thewebivore.com"
+twitter: "https://twitter.com/pamasaur"
+github: "http://github.com/pselle"
+gplus: "http://plus.google.com/110556391914416278785/"
+from: "Philadelphia, PA, USA"
+description: "JavaScript is the number one language in the world; it’s the language of the web, and a starting point for so many new developers -- but how are they coming into the fold? How do we convert new developers or new JavaScripters from jQuery fumblers to prototype obsessed?\n\nI’ll talk about techniques and strategies for teaching JavaScript at the beginner level, drawn from years of teaching JS and other topics, how we can get these beginners into our community, how we can foster their growth, and what we have to learn from other open source communities. Sound like a lot? It is! But it’s so important to talk about how we’re consciously building the next generation of JavaScripters to ensure a better JavaScript future."
+image:
+  width: 199
+  height: 300
+  type: jpg
+  heightSite: 301.5075376884422
+  filename: "/speakers/images/pam-selle.jpg"
+---
+
+{% include speaker.md %}
