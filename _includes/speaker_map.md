@@ -3,6 +3,7 @@
 .tags_speaker .stage {
   background-image: url("http://maps.googleapis.com/maps/api/staticmap?size=640x163&scale=2&sensor=false&zoom=5&markers=color:0xE10079%7C{{ page.from | cgi_escape }}&visual_refresh=1");
   background-repeat: repeat;
+  background-color: #B1D0FE;
   cursor: pointer;
 }
 </style>

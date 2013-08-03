@@ -10,6 +10,7 @@
 .background_speakers .stage {
   background-image: url("http://maps.googleapis.com/maps/api/staticmap?size=601x324&sensor=false&markers=color:0xE10079{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | cgi_escape }}{% endif %}{% endfor %}&visual_refresh=1") !important;
   background-repeat: repeat;
+  background-color: #B1D0FE;
 }
 </style>
 
