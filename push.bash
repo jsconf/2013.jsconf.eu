@@ -8,3 +8,4 @@ echo "Commit"
 git commit -a -m Push
 echo "Push"
 git push origin gh-pages
+echo "DONT FORGET TO PUSH THIS REPO AS WELL"
