@@ -1,16 +1,21 @@
 ---
   layout: default
   title: Speakers of JSConf EU 2013
-  background: background7
+  background: background_speakers
 ---
 
-{% assign overview=true %}
-<h1>Speakers</h1>
 {% assign speakers=site.tags.speaker %}
-<p>We're just getting started announcing our speakers – check back often.</p>
-<div class="embed_container">
-  <img width="560" height="315" src="http://maps.googleapis.com/maps/api/staticmap?&amp;zoom=13&amp;size=601x368&amp;sensor=false&amp;markers=color:0xE10079{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | uri_escape }}{% endif %}{% endfor %}&amp;visual_refresh=1">
-</div>
+{% assign overview=true %}
+<style type="text/css">
+.background_speakers .stage {
+  background-image: url("http://maps.googleapis.com/maps/api/staticmap?size=601x340&sensor=false&markers=color:0xE10079{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | cgi_escape }}{% endif %}{% endfor %}&visual_refresh=1") !important;
+  background-repeat: repeat;
+}
+</style>
+
+<h1>Speakers</h1>
+
+<p><strong>We're just getting started</strong> announcing our speakers – check back often.</p>
 {% for post in speakers %}
   <article>
     {{ post.content }}

@@ -2,6 +2,7 @@ $(function() {
   var t = document.querySelectorAll('.scrollTarget');
   if (t && t.length == 1 && t[0].scrollIntoView) {
     t[0].scrollIntoView(true);
+    document.body.scrollTop -= 200;
   }
   if (/background/.test(document.body.className)) {
     return;

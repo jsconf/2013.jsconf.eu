@@ -1,3 +1,12 @@
+{% if post.from != "" %}
+<style type="text/css">
+.stage {
+  background-image: url("http://maps.googleapis.com/maps/api/staticmap?size=640x340&scale=2&sensor=false&zoom=5&markers=color:0xE10079%7C{{ page.from | cgi_escape }}&visual_refresh=1") !important;
+  background-repeat: repeat;
+}
+</style>
+{% endif %}
+
 <div itemscope="" itemtype="http://schema.org/Person">
   <header class="scrollTarget">
     <h3><a href="{{ page.url }}"><span itemprop="name">{{ page.speaker }}</span>: {{ page.talk }}</a></h3>
