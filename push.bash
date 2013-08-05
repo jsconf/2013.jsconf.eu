@@ -1,6 +1,13 @@
 #!/bin/sh
 echo "cd ./_site"
 cd ./_site
+echo "git reset --hard"
+git reset --hard
+cd ..
+echo "BUILD"
+jekyll build
+echo "cd ./_site"
+cd ./_site
 pwd
 echo "Restore CNAME"
 git checkout c111da4f3c1d92b73dc1023ff3a25fa375e939b9 CNAME
