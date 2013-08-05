@@ -8,7 +8,7 @@
 {% assign overview=true %}
 <style type="text/css">
 .background_speakers .stage {
-  background-image: url("http://maps.googleapis.com/maps/api/staticmap?size=514x324&sensor=false&markers=color:0xE10079{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | cgi_escape }}{% endif %}{% endfor %}&visual_refresh=1") !important;
+  background-image: url("{{ site.speaker_index_base_url | uri_escape }}0xE10079{% for post in speakers %}%7C{% if post.from != "" %}{{ post.from | cgi_escape }}{% endif %}{% endfor %}") !important;
   background-repeat: repeat;
   background-color: #B1D0FE;
 }
