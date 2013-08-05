@@ -3,6 +3,8 @@ echo "cd ./_site"
 cd ./_site
 echo "git reset --hard"
 git reset --hard
+echo "git pull origin gh-pages"
+git pull origin gh-pages
 cd ..
 echo "BUILD"
 jekyll build
