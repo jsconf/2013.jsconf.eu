@@ -12,7 +12,7 @@
         <img height="200" class="speaker" alt="Loreena Lee" width="200" itemprop="image" src="/speakers/images/loreena-lee.jpg">
       </a>
       <a target="_blank" href="https://plus.google.com/+JohnMcCutchan">
-        <img height="200" class="speaker" alt="John McCutchan" width="200" itemprop="image" src="/speakers/images/john-mccutchan.png">
+        <img height="200" class="speaker test" alt="John McCutchan" width="200" itemprop="image" src="/speakers/images/john-mccutchan.png">
       </a>
     </div>
     <div>
