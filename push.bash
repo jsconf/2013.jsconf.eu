@@ -14,7 +14,7 @@ pwd
 echo "Restore CNAME"
 git checkout c111da4f3c1d92b73dc1023ff3a25fa375e939b9 CNAME
 echo "Add new files"
-git add speakers schedule location _posts
+git add speakers schedule location 2013 img js news stylesheets about
 echo "Commit"
 git commit -a -m Push
 echo "Push"
