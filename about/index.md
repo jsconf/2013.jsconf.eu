@@ -30,7 +30,7 @@ JSConf EU is brought to you by these people:
 <p class='person'>
   <img alt='Tiffany Conroy' height='280' src='/img/tiffany.jpg' width='280' />
   <span>Tiffany Conroy –
-    <a href='https://twitter.com/theophani' target='_blank'>@theophani</a>
+    <a href='https://twitter.com/theophani' target='_blank' class="please-work">@theophani</a>
   </span>
 </p>
 
