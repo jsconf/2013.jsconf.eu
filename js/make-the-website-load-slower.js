@@ -13,7 +13,7 @@ $(function() {
     if (!map) {
       return
     }
-    var target = setTheStage('.tags_speaker', map.src);
+    var target = setTheStage('.tags_speaker', map.getAttribute('src'));
     if (target) {
       target.onclick = function(e) {
         if (e.target == target) {
