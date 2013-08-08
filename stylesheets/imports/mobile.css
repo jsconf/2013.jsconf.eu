@@ -19,7 +19,7 @@
 
   /* line 16, ../../sass/imports/mobile.scss */
   nav li {
-    padding: 0.2em 1em;
+    padding: .2em 1em;
   }
 
   /* line 22, ../../sass/imports/mobile.scss */
@@ -48,46 +48,10 @@
 }
 /* --------------- Screens bigger than 768px ----------- */
 @media only screen and (min-width: 768px) {
-  /* line 45, ../../sass/imports/mobile.scss */
+  /* line 44, ../../sass/imports/mobile.scss */
   .main_column {
     width: 100%;
     overflow: hidden;
     padding: 1.5em 4%;
-  }
-}
-/* --------------- Screens bigger than 1280px ----------- */
-/*
-  fixed header layout
-*/
-@media only screen and (min-width: 1280px) {
-  /*  .top {
-      position: fixed;
-      top: 0;
-      z-index: 1;
-      background-size: auto;
-    }
-    .main {
-      margin-top: 500px;
-      position: relative;
-      z-index: 2;
-    }
-    aside {
-      float: right;
-      width: 30%;
-      min-width: 282px;
-    }
-    .main_column {
-      width: 100%;
-      overflow: hidden;
-      padding: 1.5em 4%;
-    }*/
-  /* line 79, ../../sass/imports/mobile.scss */
-  .stage {
-    min-height: 460px;
-  }
-
-  /* line 82, ../../sass/imports/mobile.scss */
-  .social_nav, .ticket_info {
-    font-size: 1em;
   }
 }

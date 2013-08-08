@@ -768,39 +768,3 @@ you can use the generic selector below, but it's slower:
     padding: 1.5em 4%;
   }
 }
-/* --------------- Screens bigger than 1280px ----------- */
-/*
-  fixed header layout
-*/
-@media only screen and (min-width: 1280px) {
-  /*  .top {
-      position: fixed;
-      top: 0;
-      z-index: 1;
-      background-size: auto;
-    }
-    .main {
-      margin-top: 500px;
-      position: relative;
-      z-index: 2;
-    }
-    aside {
-      float: right;
-      width: 30%;
-      min-width: 282px;
-    }
-    .main_column {
-      width: 100%;
-      overflow: hidden;
-      padding: 1.5em 4%;
-    }*/
-  /* line 78, ../sass/imports/mobile.scss */
-  .stage {
-    min-height: 460px;
-  }
-
-  /* line 81, ../sass/imports/mobile.scss */
-  .social_nav, .ticket_info {
-    font-size: 1em;
-  }
-}
