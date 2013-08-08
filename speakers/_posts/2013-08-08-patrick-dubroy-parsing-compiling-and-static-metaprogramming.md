@@ -5,8 +5,8 @@ title: "Parsing, Compiling, and Static Metaprogramming – Patrick Dubroy"
 permalink: "/speakers/patrick-dubroy-parsing-compiling-and-static-metaprogramming.html"
 speaker: Patrick Dubroy
 talk: "Parsing, Compiling, and Static Metaprogramming"
-website: dubroy.com
-twitter: twitter.com/dubroy
+website: "http://dubroy.com"
+twitter: "https://twitter.com/dubroy"
 github: ""
 gplus: ""
 from: "Munich, Germany"
