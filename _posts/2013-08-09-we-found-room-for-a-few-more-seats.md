@@ -18,6 +18,6 @@ Tickets will be sold through <a href="https://tito.io/jsconfeu/jsconf-eu-2013">T
 
 We've also started releasing info <a href="/speakers/">about the 2013 speakers</a> and will continue to do so in the coming days!
 
-<p><a href="https://tito.io/jsconfeu/jsconf-eu-2013">Purchase here.</a></p>
+<p><a href="https://tito.io/jsconfeu/jsconf-eu-2013">Purchase tickets here.</a></p>
 
 {% include facepile.md %}
