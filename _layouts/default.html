@@ -14,11 +14,15 @@
     <meta name="twitter:site" content="@jsconfeu">
     {% if page.image %}
     <meta name="twitter:image" content="{{ page.image.filename }}">
-    <meta name="og:image" content="{{ page.image.filename }}"/>
+    <meta property="og:image" content="{{ page.image.filename }}"/>
     {% endif %}
     {% if page.twitter %}<meta name="twitter:creator" content="@{{ page.twitter | split:'/' | last }}">{% endif %}
     <meta name="twitter:title" content="{{ page.title }}">
-    {% if page.description %}<meta name="twitter:description" content="{{page.description | truncatewords 50}}">{% endif %}
+    <meta property="og:title" content="{{ page.title }}" />
+    {% if page.description %}
+    <meta name="twitter:description" content="{{page.description | truncatewords 60}}">
+    <meta property="og:description" content="{{page.description | truncatewords 60}}">
+    {% endif %}
 
     <style>
       article, aside, dialog, figure, footer, header,
