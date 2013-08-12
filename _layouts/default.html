@@ -13,8 +13,8 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@jsconfeu">
     {% if page.image %}
-    <meta name="twitter:image" content="{{ page.image.filename }}">
-    <meta property="og:image" content="{{ page.image.filename }}"/>
+    <meta name="twitter:image" content="http://2013.jsconf.eu{{ page.image.filename }}">
+    <meta property="og:image" content="http://2013.jsconf.eu{{ page.image.filename }}"/>
     {% endif %}
     {% if page.twitter %}<meta name="twitter:creator" content="@{{ page.twitter | split:'/' | last }}">{% endif %}
     <meta name="twitter:title" content="{{ page.title }}">
