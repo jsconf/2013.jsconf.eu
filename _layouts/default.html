@@ -10,6 +10,15 @@
     <!--[if IE]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@jsconfeu">
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ page.image.filename }}">
+    <meta name="og:image" content="{{ page.image.filename }}"/>
+    {% endif %}
+    {% if page.twitter %}<meta name="twitter:creator" content="@{{ page.twitter | split:'/' | last }}">{% endif %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% if page.description %}<meta name="twitter:description" content="{{page.description | truncatewords 50}}">{% endif %}
 
     <style>
       article, aside, dialog, figure, footer, header,
