@@ -10,7 +10,7 @@
     <!--[if IE]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@jsconfeu">
     {% if page.image %}
     <meta name="twitter:image" content="http://2013.jsconf.eu{{ page.image.filename }}">
@@ -20,8 +20,8 @@
     <meta name="twitter:title" content="{{ page.title }}">
     <meta property="og:title" content="{{ page.title }}" />
     {% if page.description %}
-    <meta name="twitter:description" content="{{page.description | truncatewords 60}}">
-    <meta property="og:description" content="{{page.description | truncatewords 60}}">
+    <meta name="twitter:description" content="{{page.description | truncatewords:50}}">
+    <meta property="og:description" content="{{page.description | truncatewords:50}}">
     {% endif %}
 
     <style>
