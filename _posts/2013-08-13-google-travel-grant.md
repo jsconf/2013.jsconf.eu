@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Google EMEA Women in Tech Conference and Travel grants for female computer scientists
+title: Google Women in Tech Conference and Travel grants for female computer scientists
 category: news
 tags: news
 background: background7
