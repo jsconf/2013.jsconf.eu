@@ -14,7 +14,7 @@ As part of Google's ongoing commitment to encourage women to excel in
 computing and technology, we are pleased to offer Women in Tech Travel
 and Conference Grants for JSConf 2013 conference.
 
-![Logo](img/Google_Women_in_Tech_logo.jpeg)
+![Logo](/img/Google_Women_in_Tech_logo.jpeg)
 
 We are offering the winners:
 - Free registration for the conference
