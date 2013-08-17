@@ -10,9 +10,11 @@
 
 <h1>Speakers</h1>
 
-<p><strong>We're just getting started</strong> announcing our speakers – check back often.</p>
+<p>
+  {% include facepile.md %}
+</p>
 {% for post in speakers %}
-  <article>
+  <article id="{{ post.id }}">
     {{ post.content }}
   </article>
 {% endfor %}
