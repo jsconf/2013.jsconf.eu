@@ -17,6 +17,6 @@ Talks at CSSconf include:
 - Maths-powered transforms for creating 3D shapes
 - … and "Pooping out CSS"
 
-Among the <a href="http://2013.cssconf.eu/speakers/"> CSSConf speakers</a> are Chris Eppstein, the creator of SASS, Nicole Sullivan and Angelina Fabbro.
+The <a href="http://2013.cssconf.eu/speakers/">speaker lineup</a> at CSSconf.eu is pretty awesome and among others includes Chris Eppstein, the creator of SASS, Nicole Sullivan, Angelina Fabbro, etc.
 
 <p><b><a href="https://tito.io/jsconfeu/jsconf-eu-2013">Purchase tickets here.</a></b></p>
