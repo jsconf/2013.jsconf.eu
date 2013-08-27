@@ -8,6 +8,8 @@ background: background7
 
 {% include header.md %}
 
+<b>Update: <a href="/news/2013/08/26/cssconf-combo-ticket.html">Last chance to get a ticket here.</a></b>
+
 After planning the table and chair layout for this year we realized we could fit a few more people – so we decided to <a href="https://tito.io/jsconfeu/jsconf-eu-2013">sell</a> a very limited number of additional tickets.
 
 The price will be <strong>(€699 + VAT + Fee) = €849</strong>, which means you'll pay a <a href="http://jsbin.com/awixot/1/quiet" target="_blank">slightly higher percentage of the actual cost</a> compared to the regular sale.

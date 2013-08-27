@@ -7,6 +7,8 @@ tags: news
 
 {% include header.md %}
 
+<b>Update: <a href="/news/2013/08/26/cssconf-combo-ticket.html">Last chance to get a ticket here.</a></b>
+
 Tickets are sold out now. Depending on sponsor demand and negotiations with the venue we may be able to sell a small number of tickets shortly before the event. Follow us on <a href="https://twitter.com/jsconfeu">Twitter</a> and <a href="https://google.com/+JSConfEU">G+</a> for more info. We're still looking for a very limited number of sponsors. <a href="/sponsoring.html">Get in touch</a> if you or your company may be interested.
 
 {% comment %}
