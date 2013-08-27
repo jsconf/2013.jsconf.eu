@@ -462,12 +462,16 @@ footer {
   color: #74b4b0;
   font-style: italic;
 }
-/* line 316, ../sass/imports/main.scss */
+/* line 315, ../sass/imports/main.scss */
+.main_column .schedule_list p {
+  margin-bottom: 1em;
+}
+/* line 319, ../sass/imports/main.scss */
 .main_column .info {
   clear: both;
   color: #c6e3d9;
 }
-/* line 319, ../sass/imports/main.scss */
+/* line 322, ../sass/imports/main.scss */
 .main_column .info li {
   display: inline-block;
   margin: 0 1em 0 0;
@@ -477,23 +481,23 @@ footer {
   text-transform: uppercase;
   letter-spacing: .05em;
 }
-/* line 327, ../sass/imports/main.scss */
+/* line 330, ../sass/imports/main.scss */
 .main_column .info > li:before {
   display: none;
 }
 
-/* line 337, ../sass/imports/main.scss */
+/* line 340, ../sass/imports/main.scss */
 blockquote {
   margin: 2.5em 1.5em 3em;
   color: #4c0025;
 }
-/* line 340, ../sass/imports/main.scss */
+/* line 343, ../sass/imports/main.scss */
 blockquote p {
   font-style: italic;
 }
 
 /* links */
-/* line 349, ../sass/imports/main.scss */
+/* line 352, ../sass/imports/main.scss */
 a,
 a:link,
 a:visited {
@@ -505,7 +509,7 @@ a:visited {
   transition: color 0.1s ease-in-out, border-color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 }
 
-/* line 357, ../sass/imports/main.scss */
+/* line 360, ../sass/imports/main.scss */
 a:hover,
 a:active,
 a:focus {
@@ -514,12 +518,12 @@ a:focus {
   text-decoration: none;
 }
 
-/* line 365, ../sass/imports/main.scss */
+/* line 368, ../sass/imports/main.scss */
 nav ul {
   margin: 1em 0;
   text-align: center;
 }
-/* line 369, ../sass/imports/main.scss */
+/* line 372, ../sass/imports/main.scss */
 nav li {
   display: inline-block;
   padding: .2em .5em;
@@ -528,12 +532,12 @@ nav li {
   font-weight: bold;
 }
 
-/* line 377, ../sass/imports/main.scss */
+/* line 380, ../sass/imports/main.scss */
 .main {
   padding: 3em 0;
 }
 
-/* line 381, ../sass/imports/main.scss */
+/* line 384, ../sass/imports/main.scss */
 .main_column {
   max-width: 640px;
   margin: 0 auto;
@@ -541,25 +545,25 @@ nav li {
   overflow: hidden;
 }
 
-/* line 388, ../sass/imports/main.scss */
+/* line 391, ../sass/imports/main.scss */
 section {
   margin: 0 0 4.5em 0;
   padding: 0 3%;
   clear: both;
 }
 
-/* line 395, ../sass/imports/main.scss */
+/* line 398, ../sass/imports/main.scss */
 article {
   margin-bottom: 4.5em;
 }
-/* line 397, ../sass/imports/main.scss */
+/* line 400, ../sass/imports/main.scss */
 article header {
   margin-bottom: 1em;
   border-bottom: 0.1875em solid #c6e3d9;
 }
 
 /* fluid iframes */
-/* line 404, ../sass/imports/main.scss */
+/* line 407, ../sass/imports/main.scss */
 .embed_container {
   position: relative;
   margin-bottom: 1.5em;
@@ -569,7 +573,7 @@ article header {
   overflow: hidden;
 }
 
-/* line 414, ../sass/imports/main.scss */
+/* line 417, ../sass/imports/main.scss */
 .embed_container iframe,
 .embed_container img {
   position: absolute;
@@ -579,38 +583,38 @@ article header {
   height: 100%;
 }
 
-/* line 422, ../sass/imports/main.scss */
+/* line 425, ../sass/imports/main.scss */
 .person {
   position: relative;
   display: inline-block;
   margin-right: 2em;
 }
-/* line 426, ../sass/imports/main.scss */
+/* line 429, ../sass/imports/main.scss */
 .person span {
   position: absolute;
   bottom: 1em;
   right: 1em;
   color: #fbf6ef;
 }
-/* line 432, ../sass/imports/main.scss */
+/* line 435, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
 
-/* line 437, ../sass/imports/main.scss */
+/* line 440, ../sass/imports/main.scss */
 .date {
   color: #74b4b0;
   font-size: .875em;
   font-style: italic;
 }
 
-/* line 444, ../sass/imports/main.scss */
+/* line 447, ../sass/imports/main.scss */
 .speaker_avatar {
   display: block;
   overflow: hidden;
   text-align: center;
 }
-/* line 448, ../sass/imports/main.scss */
+/* line 451, ../sass/imports/main.scss */
 .speaker_avatar img {
   display: inline-block;
   margin: 0 auto 1em auto;
