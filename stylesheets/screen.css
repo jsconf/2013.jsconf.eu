@@ -715,6 +715,27 @@ you can use the generic selector below, but it's slower:
   content: "\73";
 }
 
+h1.sponsor a {
+  color: #333
+}
+
+h1.sponsor a:hover, h1.sponsor a:focus {
+  color: #666
+}
+
+img.sponsor {
+  width: 200px;
+  text-align: left;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+img.sponsor-no-text {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 2.5em;
+}
+
 /* --------------- Screens bigger than 580px ----------- */
 @media only screen and (min-width: 580px) {
   /* line 3, ../sass/imports/mobile.scss */
