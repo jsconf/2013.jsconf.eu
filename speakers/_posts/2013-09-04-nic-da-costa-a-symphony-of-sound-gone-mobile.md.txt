@@ -1,0 +1,22 @@
+---
+layout: default
+tags: speaker
+title: "A Symphony Of Sound, Gone Mobile – Nic da Costa"
+permalink: "/speakers/nic-da-costa-a-symphony-of-sound-gone-mobile.html"
+speaker: Nic da Costa
+talk: "A Symphony Of Sound, Gone Mobile"
+website: ""
+twitter: "https://twitter.com/nic_dacosta"
+github: "https://github.com/nicdaCosta"
+gplus: "https://plus.google.com/111523616060404197347/posts"
+from: "Durban, South Africa"
+description: "With nothing more than a baton, it is considered a conductor's duty to be able to synchronise and shape the sounds of a given ensemble. Last year Stuart Memo rocked the house armed with only a guitar and the Web Audio API when he showed us that JavaScript is the new punk rock.\n\nThis year I hope to show mobile the same love and help create our very own JSConf Orchestra, as we join together as a community and play a symphony of sound. I will talk about working with sound ( both HTML5 Audio and the Web Audio API ) on mobile devices as well as how to synchronise sounds across several devices."
+image: 
+  width: 382
+  height: 382
+  type: png
+  heightSite: 200
+  filename: "/speakers/images/nic-da-costa.png"
+---
+
+{% include speaker.md %}
