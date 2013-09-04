@@ -19,6 +19,9 @@
     {% if page.image %}
     {% if website %}<a href="{{ website }}" class="speaker_avatar" target="_blank">{% else %}<span class="speaker_avatar">{% endif %}
       <img src="{{ page.image.filename }}" alt="{{ page.speaker }}" width="200" height="{{ page.image.heightSite }}" itemprop="image" class="speaker" />
+      {% if page.image2 %}
+      <img src="{{ page.image2.filename }}" alt="{{ page.speaker }}" width="200" height="{{ page.image2.heightSite }}" itemprop="image" class="speaker" />
+      {% endif %}
     {% if website %}</a>{% else %}</span>{% endif %}
     {% endif %}
     <div>
