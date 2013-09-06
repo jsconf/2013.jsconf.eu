@@ -1,7 +1,7 @@
 ---
 layout: default
 tags: sponsor
-level: sponsor-supoort
+level: sponsor-support
 title: Sauce Labs
 permalink: "/sponsors/saucelabs.html"
 ---
