@@ -6,8 +6,4 @@ title: SinnerSchrader
 permalink: "/sponsors/sinnerschrader.html"
 ---
 
-<h1 class="sponsor">
-  <a href="{{page.permalink}}">{{ page.title }}</a>
-</h1>
-
-<img src="/sponsors/images/sinnerschrader.png" class="sponsor-no-text" />
+<a href="http://www.sinnerschrader.com/en/" target="_blank" rel="nofollow"><img src="/sponsors/images/sinnerschrader.png" class="sponsor-no-text" alt="SinnerSchrader" /></a>
