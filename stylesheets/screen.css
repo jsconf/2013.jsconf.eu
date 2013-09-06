@@ -730,6 +730,7 @@ img.sponsor {
   margin: 0 0 1em 1em;
 }
 
+img.sponsor-main,
 img.sponsor-no-text {
   width: 90%;
   margin: 0 5%;
