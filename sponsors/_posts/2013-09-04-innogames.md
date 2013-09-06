@@ -2,7 +2,7 @@
 layout: default
 tags: sponsor
 level: sponsor-main
-title: Innogames
+title: InnoGames
 permalink: "/sponsors/innogames.html"
 ---
 
