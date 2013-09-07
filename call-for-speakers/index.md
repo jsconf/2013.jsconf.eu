@@ -5,7 +5,9 @@
 ---
 
 
-# The Call for Speakers has ended.
+# The Call for Speakers has ended…
+
+<a href="/speakers/">…and speakers have been announced!</a>
 
 > “JSConf EU — This is your conference.”
 
