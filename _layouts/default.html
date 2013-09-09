@@ -134,13 +134,41 @@
       </div>
     </div>
 
-{% comment%}
     <div class="sponsors">
       <div class="container">
-        <p>Sponsors go here (white background needed)</p>
+        {% assign sponsors=site.tags.sponsor %}
+        <div class="level">
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-special" %}
+            <div class="sponsor"><img src="{{ post.image }}" width="200" /></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="level">
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-main" %}
+            <div class="sponsor"><img src="{{ post.image }}" width="150" /></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        <div class="level">
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-support" %}
+            <div class="sponsor"><img src="{{ post.image }}" width="100" /></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% comment %}
+        <div class="level">
+          {% for post in sponsors %}
+            {% if.post.level == "sponsor-custom" %}
+            <div class="sponsor"><img src="{{ post.image }}" width="80" /></div>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% endcomment %}
       </div>
     </div>
-{% endcomment %}
 
     <footer>
       <div class="container">

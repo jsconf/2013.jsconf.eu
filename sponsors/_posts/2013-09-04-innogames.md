@@ -4,6 +4,7 @@ tags: sponsor
 level: sponsor-main
 title: InnoGames
 permalink: "/sponsors/innogames.html"
+image: "/sponsors/images/innogames.png"
 ---
 
 <h1 class="sponsor">

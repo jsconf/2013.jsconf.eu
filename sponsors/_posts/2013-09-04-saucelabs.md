@@ -4,6 +4,7 @@ tags: sponsor
 level: sponsor-support
 title: Sauce Labs
 permalink: "/sponsors/saucelabs.html"
+image: "/sponsors/images/saucelabs.png"
 ---
 
 <h1 class="sponsor">

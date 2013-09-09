@@ -4,6 +4,7 @@ tags: sponsor
 level: sponsor-main
 title: Microsoft
 permalink: "/sponsors/microsoft.html"
+image: "/sponsors/images/microsoft.png"
 ---
 
 <h1 class="sponsor">

@@ -4,6 +4,7 @@ tags: sponsor
 level: sponsor-main
 title: Bloomberg
 permalink: "/sponsors/bloomberg.html"
+image: "/sponsors/images/bloomberg.svg"
 ---
 
 <h1 class="sponsor">

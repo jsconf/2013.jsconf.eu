@@ -4,6 +4,7 @@ tags: sponsor
 level: sponsor-support
 title: JetBrains
 permalink: "/sponsors/jetbrains.html"
+image: "/sponsors/images/jetbrains.png"
 ---
 
 <h1 class="sponsor">
