@@ -796,3 +796,17 @@ you can use the generic selector below, but it's slower:
     padding: 1.5em 4%;
   }
 }
+
+img.sponsor {
+  width: 200px;
+  text-align: left;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+img.sponsor-main,
+img.sponsor-no-text {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 2.5em;
+}
