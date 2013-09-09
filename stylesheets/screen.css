@@ -543,7 +543,6 @@ nav li {
   margin: 0 auto;
   background: #FFF;
   overflow: hidden;
-  padding: 1.5em 4%;
 }
 
 /* line 391, ../sass/imports/main.scss */
@@ -620,6 +619,22 @@ article header {
   display: inline-block;
   margin: 0 auto 1em auto;
   width: 200px;
+}
+
+/* line 458, ../sass/imports/main.scss */
+img.sponsor {
+  width: 200px;
+  text-align: left;
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
+/* line 466, ../sass/imports/main.scss */
+img.sponsor-main,
+img.sponsor-no-text {
+  width: 90%;
+  margin: 0 5%;
+  margin-bottom: 2.5em;
 }
 
 @font-face {
@@ -716,28 +731,6 @@ you can use the generic selector below, but it's slower:
   content: "\73";
 }
 
-h1.sponsor a {
-  color: #333
-}
-
-h1.sponsor a:hover, h1.sponsor a:focus {
-  color: #666
-}
-
-img.sponsor {
-  width: 200px;
-  text-align: left;
-  float: right;
-  margin: 0 0 1em 1em;
-}
-
-img.sponsor-main,
-img.sponsor-no-text {
-  width: 90%;
-  margin: 0 5%;
-  margin-bottom: 2.5em;
-}
-
 /* --------------- Screens bigger than 580px ----------- */
 @media only screen and (min-width: 580px) {
   /* line 3, ../sass/imports/mobile.scss */
@@ -794,18 +787,4 @@ img.sponsor-no-text {
     overflow: hidden;
     padding: 1.5em 4%;
   }
-}
-
-img.sponsor {
-  width: 200px;
-  text-align: left;
-  float: right;
-  margin: 0 0 1em 1em;
-}
-
-img.sponsor-main,
-img.sponsor-no-text {
-  width: 90%;
-  margin: 0 5%;
-  margin-bottom: 2.5em;
 }
