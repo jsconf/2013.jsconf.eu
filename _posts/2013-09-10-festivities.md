@@ -15,7 +15,7 @@ So, as usual, our Parties and Relax.js are open for all!
 
 In detail:
 
-## [Relax.js After Party](http://rejectjs.org/#afterparty), Thursday, September 12th,19:30
+## [Reject.JS After Party](http://rejectjs.org/#afterparty), Thursday, September 12th,19:30
 
 Tarantino's Bar | Brunnenstraße 163 | 10119 Berlin | [Map](https://www.google.com/maps/preview#!q=Tarantino's+Bar&data=!4m10!1m9!4m8!1m3!1d4133!2d13.385135!3d52.533571!3m2!1i1278!2i1308!4f13.1)
 
