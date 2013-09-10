@@ -257,6 +257,26 @@ nav {
   padding: 2em 0;
   border-top: 1px solid $color_beige;
   background: #FFF;
+  text-align: center;
+  .level:not(:last-child) {
+    margin-bottom: 1em;
+    border-bottom: 1px solid $color_dark;
+  }
+  .sponsor {
+    display: inline-block;
+  }
+  img {
+    margin-right: 3em;
+    margin-bottom: 1em;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  img:hover {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    filter: grayscale(0%);
+  }
 }
 
 /* footer */
