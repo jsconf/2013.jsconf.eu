@@ -1,4 +1,8 @@
 $(function() {
+  $('img[data-src]').each(function() {
+    this.src = this.getAttribute('data-src');
+  });
+
   var t = document.querySelectorAll('.scrollTarget');
   if (t && t.length == 1 && t[0].scrollIntoView) {
     t[0].scrollIntoView(true);
