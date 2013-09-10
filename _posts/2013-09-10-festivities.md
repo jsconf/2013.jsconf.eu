@@ -41,12 +41,15 @@ At the [main JSConf EU Venue](http://2013.jsconf.eu/location/).
 
 Radialsystem V | Holzmarktstraße 33 | 10243 Berlin | [Map](https://www.google.com/maps/preview#!q=radialsystem&data=!4m10!1m9!4m8!1m3!1d4136!2d13.457964!3d52.50936!3m2!1i1278!2i1308!4f13.1)
 
-Bands, DJs, everything. Do. Not. Miss.
+[Bands](/news/2013/09/09/frank-sent-us.html), DJs, everything. Do. Not. Miss.
 
 
 ### JSConf EU After Party, Sunday, September 15th, 20:00
 
 On the [Boat Hoppetosse](http://www.arena-berlin.de/hoppetosse/) with DJs & drinks.
+
+{% assign image_url="/img/hoppetosse.jpg" %}
+{% include image.md %}
 
 Eichenstrasse 4 | 12435 Berlin | [Map](https://www.google.com/maps/preview#!q=hoppetosse+berlin&data=!4m10!1m9!4m8!1m3!1d8851437!2d10.4541194!3d51.1758057!3m2!1i1278!2i1327!4f13.1) | [Location Map](http://www.arena-berlin.de/locations/)
 
