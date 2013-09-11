@@ -23,7 +23,7 @@ Free for all, drinks are on you, if you don’t have a Reject.js badge.
 
 * * *
 
-The next three ones are included for all JSConf EU attendees, but everyone else is invited. The parties are all-inclusive and we need to ask you to [register for a ticket](https://tito.io/jsconfeu/jsconf-eu-2013?release_id=ua2fijypje). It’s just 12€ incl. VAT for all parties (single party tickets aren’t available as they wouldn’t be any cheaper :).
+The next three ones are included for all JSConf EU attendees, but everyone else is invited. The parties are all-inclusive and we need to ask you to [register for a ticket](https://tito.io/jsconfeu/jsconf-eu-2013?release_id=ua2fijypje) if you *do not* already have a conference ticket. It’s just 12€ incl. VAT for all parties (single party tickets aren’t available as they wouldn’t be any cheaper :).
 
 Bring your friends!
 
