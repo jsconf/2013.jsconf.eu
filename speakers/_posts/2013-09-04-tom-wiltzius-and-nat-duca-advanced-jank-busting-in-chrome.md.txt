@@ -5,7 +5,7 @@ title: Advanced Jank Busting in Chrome – Tom Wiltzius and Nat Duca
 permalink: "/speakers/tom-wiltzius-and-nat-duca-advanced-jank-busting-in-chrome.html"
 speaker: Tom Wiltzius and Nat Duca
 talk: Advanced Jank Busting in Chrome
-website: "https://www.google.com/#q=Tom+Wiltzius+and+Nat+Duca"
+website: "http://jankfree.org/"
 twitter: ""
 github: ""
 gplus: "https://plus.google.com/u/0/103238735625031210015/posts"
