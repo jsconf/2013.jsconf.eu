@@ -661,6 +661,11 @@ img.sponsor-no-text {
   margin-bottom: 2.5em;
 }
 
+/* line 492, ../sass/imports/main.scss */
+.tags_homepage .extra_events {
+  display: none;
+}
+
 @font-face {
   font-family: 'jsconfeu';
   src: url("/fonts/jsconfeu.eot");
