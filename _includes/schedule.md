@@ -11,7 +11,7 @@
     <h4>Conference Day 1</h4>
     <p>Breakfast: 08:30am</p>
     <p>"Keynote": 09:30am</p>
-    <p>Talks</p>
+    <p><a href="{{ site.schedule_url }}">Talks</a></p>
     <p>Dinner: 07:00pm</p>
     <i>Sept 14, Saturday night</i>
     <h4>Main Party: 09:00pm</h4>
@@ -21,7 +21,7 @@
     <i>Sept 15, Sunday</i>
     <h4>Conference Day 2</h4>
     <p>Breakfast: 09:00am</p>
-    <p>Talks</p>
+    <p><a href="{{ site.schedule_url }}">Talks</a></p>
     <p>Closing the conference and group photo: 06:30pm</p>
     <i>Sept 15, Sunday night</i>
     <h4>Closing Party: 08:00pm</h4>
