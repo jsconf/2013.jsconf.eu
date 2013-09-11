@@ -28,7 +28,7 @@ The next three ones are included for all JSConf EU attendees, but everyone else 
 Bring your friends!
 
 
-### JSConf EU Pre Party by <a href="http://andyet.com" rel="nofollow" target="_blank">&yet</a>, Friday, September 13th, 20:00
+### JSConf EU Pre Party by <a href="http://andyet.com" rel="nofollow" target="_blank">&amp;yet</a>, Friday, September 13th, 20:00
 
 BeachMitte | Caroline-Michaelis-Str. 8 | 10115 Berlin | [Map](https://www.google.com/maps/preview#!q=BeachMitte&data=!4m22!1m9!4m8!1m3!1d4136!2d13.4286932!3d52.5105422!3m2!1i1278!2i1308!4f13.1!5m11!1m10!1sBeachMitte!4m8!1m3!1d4136!2d13.4286932!3d52.5105422!3m2!1i1278!2i1308!4f13.1)
 
