@@ -1,21 +1,4 @@
-There will be lots more info here in the future!
 
-<ul class="schedule_list">
-  <li>
-    <i>Sept 12, Thursday</i>
-    <h4><a href="http://rejectjs.org">Reject.JS 2013</a></h4>
-  </li>
-  <li>
-    <i>Sept 13, Friday</i>
-    <h4><a href="http://nodecopter.com">NodeCopter</a></h4>
-  </li>
-  <li>
-    <i>Sept 13, Friday</i>
-    <h4><a href="http://2013.cssconf.eu">CSSConf EU</a></h4>
-  </li>
-</ul>
-
-Everything from here is included in the conference ticket:
 
 <ul class="schedule_list">
   <li>
@@ -56,6 +39,23 @@ Everything from here is included in the conference ticket:
     <p>Join us for a relaxed brunch, food &amp; drink included at <a href='http://cafe-datscha.de/en/'>authentic Russian-style Datscha Café</a>.</p>
 
     <p>Gabriel-Max-Str. 1 | 10245 Berlin | <a href='https://www.google.com/maps/preview#!q=Datscha+Gabriel-Max-Straße+1%2C+10245+Berlin&amp;data=!1m4!1m3!1d4136!2d13.457964!3d52.50936!4m23!1m9!4m8!1m3!1d5122761!2d10.4541194!3d51.1758057!3m2!1i1024!2i768!4f13.1!5m12!1m11!1sDatscha+Gabriel-Max-Straße+1%2C+10245+Berlin!4m8!1m3!1d5122761!2d10.4541194!3d51.1758057!3m2!1i1024!2i768!4f13.1!17b1'>Map</a></p>  </li>
+</ul>
+
+Events just before JSConf:
+
+<ul class="schedule_list">
+  <li>
+    <i>Sept 12, Thursday</i>
+    <h4><a href="http://rejectjs.org">Reject.JS 2013</a></h4>
+  </li>
+  <li>
+    <i>Sept 13, Friday</i>
+    <h4><a href="http://nodecopter.com">NodeCopter</a></h4>
+  </li>
+  <li>
+    <i>Sept 13, Friday</i>
+    <h4><a href="http://2013.cssconf.eu">CSSConf EU</a></h4>
+  </li>
 </ul>
 
 Other events worth going while in Europe:
