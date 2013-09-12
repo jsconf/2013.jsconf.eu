@@ -140,21 +140,41 @@
         <div class="level">
           {% for post in sponsors %}
             {% if.post.level == "sponsor-special" %}
-            <div class="sponsor"><img data-src="{{ post.image }}" width="200" /></div>
+            <div class="sponsor">
+              {% if.post.link %}
+                <a href="{{ post.link }}" target="_blank" rel="nofollow">
+              {% endif %}
+                <img data-src="{{ post.image }}" width="200" />
+              {% if post.link %}
+                </a>
+              {% endif %}
+            </div>
             {% endif %}
           {% endfor %}
         </div>
         <div class="level">
           {% for post in sponsors %}
             {% if.post.level == "sponsor-main" %}
-            <div class="sponsor"><img data-src="{{ post.image }}" width="150" /></div>
+              {% if.post.link %}
+                <a href="{{ post.link }}" target="_blank" rel="nofollow">
+              {% endif %}
+                <img data-src="{{ post.image }}" width="150" />
+              {% if post.link %}
+                </a>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>
         <div class="level">
           {% for post in sponsors %}
             {% if.post.level == "sponsor-support" %}
-            <div class="sponsor"><img data-src="{{ post.image }}" width="100" /></div>
+              {% if.post.link %}
+                <a href="{{ post.link }}" target="_blank" rel="nofollow">
+              {% endif %}
+                <img data-src="{{ post.image }}" width="100" />
+              {% if post.link %}
+                </a>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>
@@ -162,7 +182,13 @@
         <div class="level">
           {% for post in sponsors %}
             {% if.post.level == "sponsor-custom" %}
-            <div class="sponsor"><img data-src="{{ post.image }}" width="80" /></div>
+              {% if.post.link %}
+                <a href="{{ post.link }}" target="_blank" rel="nofollow">
+              {% endif %}
+                <img data-src="{{ post.image }}" width="80" />
+              {% if post.link %}
+                </a>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </div>

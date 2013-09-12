@@ -3,6 +3,9 @@
 
 Run:
 
-jekyll --auto --server
+(*) jekyll --auto --server
 
 compass watch
+
+*use jekyll serve watch if using latest
+versions of jekyll
