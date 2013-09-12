@@ -5,6 +5,7 @@ level: sponsor-support
 title: Nodejitsu
 permalink: "/sponsors/nodejitsu.html"
 image: "/sponsors/images/nodejitsu.png"
+link: "http://nodejitsu.com"
 ---
 
 <h1 class="sponsor">
