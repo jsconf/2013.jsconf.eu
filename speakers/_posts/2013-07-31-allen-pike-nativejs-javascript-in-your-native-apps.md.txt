@@ -10,7 +10,7 @@ twitter: "https://twitter.com/apike"
 github: "http://www.github.com/apike"
 gplus: "https://plus.google.com/115189793104525758622"
 from: Vancouver
-description: "Users want to use a native mobile UI, and developers want to write JavaScript. I'll be discussing the benefits of using a JavaScript engine in your native app instead of going all-web or all-native. Get the best of both worlds: logic in JavaScript and a slick native UI. We'll also look at how this turns out to be an interesting way to build cross-platform apps that have a damn fast user interface."
+description: "Users want to use a native mobile UI, and developers want to write JavaScript. I’ll be discussing ways of embedding a JavaScript engine in your native app instead of going all-web or all-native. Get the best of both worlds: logic in JavaScript and a slick native UI. I'll demonstrate what's new on iOS and the Mac that makes this approach easier, and look at how this turns out to be an interesting way to build cross-platform apps that have a wonderful user interface."
 image:
   width: 500
   height: 500
