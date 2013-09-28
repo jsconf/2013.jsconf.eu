@@ -10,10 +10,35 @@
 
 {% include speaker_map.md %}
 
+{% if overview %}
+<div>
+{% else %}
+{% if page.video %}
+<div itemprop="video" class="talk_video" itemscope="" itemtype="http://schema.org/VideoObject">
+{% else %}
 <div itemscope="" itemtype="http://schema.org/Person">
+{% endif %}
+{% endif %}
   <header class="scrollTarget">
-    <h3><a href="{{ page.url }}"><span itemprop="name">{{ page.speaker }}</span>: {{ page.talk }}</a></h3>
+    <h3>{{post.overview}}<a href="{{ page.url }}"><span itemprop="name">{{ page.speaker }}</span>: {{ page.talk }}</a></h3>
   </header>
+
+ {% if page.video %}
+   {% unless overview %}
+     <section class="video">
+       {% assign video_id=page.video %}
+       {% include youtube.md %}
+       <div class="video_info">
+       {% if page.slides %}
+         <a href="{{ page.slides }}" target="_blank" class="slides">Slides</a>
+       {% else %}
+         <span>Ping us if you have a link to the slides.</span>
+       {% endif %}
+        <div class="g-ytsubscribe" data-channel="jsconfeu" style="height:24px"></div>
+        </div>
+     </section>
+   {% endunless %}
+ {% endif %}
 
   <section class="description">
     {% if page.image %}
@@ -24,10 +49,20 @@
       {% endif %}
     {% if website %}</a>{% else %}</span>{% endif %}
     {% endif %}
-    <div>
+    <div itemprop="description">
+      {% if overview %}
+        {% if page.video %}
+          <a href="{{ page.url }}"><b>Video</b><br />
+            <img width="160" height="90"
+              src="http://img.youtube.com/vi/{{ page.video }}/maxresdefault.jpg"
+              alt="Video" />
+          </a>
+        {% endif %}
+      {% endif %}
       {{ page.description | markdownify }}
     </div>
 
+    {% unless overview %}
     <ul class="info">
       {% if page.from != "" %}<li>» <a href="https://www.google.com/maps/preview#!q={{ page.from }}"  target="_blank">{{ page.from != ""  }}</a></li>{% endif %}
       {% if page.website != ""  %}<li>» <a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
@@ -37,5 +72,6 @@
       {% if page.github2 %}<li>» <a href="{{ page.github2 }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
       {% if page.twitter2 %}<li>» <a href="{{ page.twitter2 }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
     </ul>
+    {% endunless %}
   </section>
 </div>

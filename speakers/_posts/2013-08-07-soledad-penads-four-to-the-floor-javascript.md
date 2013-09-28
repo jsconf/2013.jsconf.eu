@@ -17,6 +17,7 @@ image:
   type: png
   heightSite: 200.56497175141243
   filename: "/speakers/images/soledad-penads.png"
+video___: h0EdX1SCT1E
 ---
 
 {% include speaker.md %}

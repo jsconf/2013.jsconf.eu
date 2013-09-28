@@ -2,6 +2,7 @@
   layout: default
   title: Speakers of JSConf EU 2013
   background: background_speakers
+  tags: foo
 ---
 
 {% assign speakers=site.tags.speaker %}
@@ -14,7 +15,8 @@
   {% include facepile.md %}
 </p>
 {% for post in speakers %}
-  <article id="{{ post.id }}">
-    {{ post.content }}
+  <article id="{{ post.id }}" class="speaker_list">
+    {% assign page = post %}
+    {% include speaker.md %}
   </article>
 {% endfor %}

@@ -576,18 +576,40 @@ section {
   clear: both;
 }
 
-/* line 418, ../sass/imports/main.scss */
+/* line 417, ../sass/imports/main.scss */
+section.video {
+  margin: 0 0 0 0;
+}
+
+/* line 422, ../sass/imports/main.scss */
+.talk_video .embed_container {
+  margin-bottom: 0.5em;
+}
+/* line 425, ../sass/imports/main.scss */
+.talk_video .video_info {
+  margin-bottom: 2em;
+}
+/* line 426, ../sass/imports/main.scss */
+.talk_video .video_info div {
+  float: right !important;
+}
+/* line 431, ../sass/imports/main.scss */
+.talk_video a.slides, .talk_video span {
+  line-height: 24px;
+}
+
+/* line 436, ../sass/imports/main.scss */
 article {
   margin-bottom: 4.5em;
 }
-/* line 420, ../sass/imports/main.scss */
+/* line 438, ../sass/imports/main.scss */
 article header {
   margin-bottom: 1em;
   border-bottom: 0.1875em solid #c6e3d9;
 }
 
 /* fluid iframes */
-/* line 427, ../sass/imports/main.scss */
+/* line 445, ../sass/imports/main.scss */
 .embed_container {
   position: relative;
   margin-bottom: 1.5em;
@@ -597,7 +619,7 @@ article header {
   overflow: hidden;
 }
 
-/* line 437, ../sass/imports/main.scss */
+/* line 455, ../sass/imports/main.scss */
 .embed_container iframe,
 .embed_container img {
   position: absolute;
@@ -607,45 +629,45 @@ article header {
   height: 100%;
 }
 
-/* line 445, ../sass/imports/main.scss */
+/* line 463, ../sass/imports/main.scss */
 .person {
   position: relative;
   display: inline-block;
   margin-right: 2em;
 }
-/* line 449, ../sass/imports/main.scss */
+/* line 467, ../sass/imports/main.scss */
 .person span {
   position: absolute;
   bottom: 1em;
   right: 1em;
   color: #fbf6ef;
 }
-/* line 455, ../sass/imports/main.scss */
+/* line 473, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
 
-/* line 460, ../sass/imports/main.scss */
+/* line 478, ../sass/imports/main.scss */
 .date {
   color: #74b4b0;
   font-size: .875em;
   font-style: italic;
 }
 
-/* line 467, ../sass/imports/main.scss */
+/* line 485, ../sass/imports/main.scss */
 .speaker_avatar {
   display: block;
   overflow: hidden;
   text-align: center;
 }
-/* line 471, ../sass/imports/main.scss */
+/* line 489, ../sass/imports/main.scss */
 .speaker_avatar img {
   display: inline-block;
   margin: 0 auto 1em auto;
   width: 200px;
 }
 
-/* line 478, ../sass/imports/main.scss */
+/* line 498, ../sass/imports/main.scss */
 img.sponsor {
   width: 200px;
   text-align: left;
@@ -653,7 +675,7 @@ img.sponsor {
   margin: 0 0 1em 1em;
 }
 
-/* line 486, ../sass/imports/main.scss */
+/* line 506, ../sass/imports/main.scss */
 img.sponsor-main,
 img.sponsor-no-text {
   width: 90%;
@@ -661,7 +683,7 @@ img.sponsor-no-text {
   margin-bottom: 2.5em;
 }
 
-/* line 492, ../sass/imports/main.scss */
+/* line 512, ../sass/imports/main.scss */
 .tags_homepage .extra_events {
   display: none;
 }

@@ -414,6 +414,24 @@ section {
   clear: both;
 }
 
+section.video {
+  margin: 0 0 0 0;
+}
+
+.talk_video {
+  .embed_container {
+    margin-bottom: 0.5em;
+  }
+  .video_info {
+    div {
+      float: right !important;
+    }
+    margin-bottom: 2em;
+  }
+  a.slides,span {
+    line-height: 24px;
+  }
+}
 
 article {
   margin-bottom: 4.5em;
@@ -474,6 +492,8 @@ article {
     width: 200px;
   }
 }
+
+
 
 img.sponsor {
   width: 200px;
