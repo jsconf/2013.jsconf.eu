@@ -423,8 +423,16 @@ section.video {
     margin-bottom: 0.5em;
   }
   .video_info {
-    div {
-      float: right !important;
+    div.subscribe {
+      float: right;
+      span {
+        vertical-align: super;
+      }
+    }
+    .g-ytsubscribe {
+      height: 24px;
+      width: 140px;
+      display: inline-block;
     }
     margin-bottom: 2em;
   }

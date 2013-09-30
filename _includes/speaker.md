@@ -34,7 +34,7 @@
        {% else %}
          <span>Ping us if you have a link to the slides.</span>
        {% endif %}
-        <div class="g-ytsubscribe" data-channel="jsconfeu" style="height:24px"></div>
+        <div class="subscribe"><span>Subscribe:</span> <div class="g-ytsubscribe" data-channel="jsconfeu"></div></div>
         </div>
      </section>
    {% endunless %}
