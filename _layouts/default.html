@@ -12,6 +12,9 @@
     <![endif]-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@jsconfeu">
+    {% if page.video %}
+    <meta property="og:video" content="http://www.youtube.com/v/{{ page.video }}">
+    {% endif %}
     {% if page.image %}
     <meta name="twitter:image" content="http://2013.jsconf.eu{{ page.image.filename }}">
     <meta property="og:image" content="http://2013.jsconf.eu{{ page.image.filename }}"/>
