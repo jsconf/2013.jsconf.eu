@@ -30,7 +30,9 @@
        {% include youtube.md %}
        <div class="video_info">
        {% if page.slides %}
-         <a href="{{ page.slides }}" target="_blank" class="slides">Slides</a>
+         <a href="{{ page.slides }}" target="_blank" class="slides">
+           {% if page.slides_text %}{{ page.slides_text }}{% else %}Slides{% endif %}
+         </a>
        {% else %}
          <span>Ping us if you have a link to the slides.</span>
        {% endif %}
