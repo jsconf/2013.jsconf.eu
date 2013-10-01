@@ -65,6 +65,16 @@
     </div>
 
     {% unless overview %}
+    {% if page.video %}
+      <p>
+        <img width="160" height="120"
+              src="http://img.youtube.com/vi/{{ page.video }}/0.jpg" alt="Video" />
+        <img width="160" height="120"
+              src="http://img.youtube.com/vi/{{ page.video }}/1.jpg" alt="Video" />
+        <img width="160" height="120"
+              src="http://img.youtube.com/vi/{{ page.video }}/2.jpg" alt="Video" />
+      </p>
+    {% endif %}
     <ul class="info">
       {% if page.from != "" %}<li>» <a href="https://www.google.com/maps/preview#!q={{ page.from }}"  target="_blank">{{ page.from != ""  }}</a></li>{% endif %}
       {% if page.website != ""  %}<li>» <a href="{{ page.website }}" itemprop="url" target="_blank">Website</a></li>{% endif %}
@@ -74,6 +84,7 @@
       {% if page.github2 %}<li>» <a href="{{ page.github2 }}" itemprop="url" target="_blank">Github</a></li>{% endif %}
       {% if page.twitter2 %}<li>» <a href="{{ page.twitter2 }}" itemprop="url" target="_blank">Twitter</a></li>{% endif %}
     </ul>
+
     {% endunless %}
   </section>
 </div>
