@@ -20,7 +20,7 @@
 {% endif %}
 {% endif %}
   <header class="scrollTarget">
-    <h3>{{post.overview}}<a href="{{ page.url }}"><span itemprop="name">{{ page.speaker }}</span>: {{ page.talk }}</a></h3>
+    <h3>{{post.overview}}<a href="{{ page.url }}"><span itemprop="name">{{ page.speaker }}: {{ page.talk }}</span></a></h3>
   </header>
 
  {% if page.video %}
