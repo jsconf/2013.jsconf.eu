@@ -17,6 +17,7 @@ image:
   type: jpeg
   heightSite: 189.0995260663507
   filename: "/speakers/images/natalia-berdys.jpeg"
+video: "7nnAYB1mb9E"
 ---
 
 {% include speaker.md %}
