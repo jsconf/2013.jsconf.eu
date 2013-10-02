@@ -18,8 +18,7 @@ image:
   heightSite: 200
   filename: "/speakers/images/martin-kleppe.jpeg"
 video: RTxtiLp1C8Y
-slides: http://aem1k.com/world/
-slides_text: "Spoiler: The World"
+slides: http://www.slideshare.net/aemkei/1024-seconds-of-js-wizardry-jsconfeu-2013
 ---
 
 {% include speaker.md %}
