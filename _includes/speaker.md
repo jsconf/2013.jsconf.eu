@@ -68,11 +68,11 @@
     {% if page.video %}
       <p>
         <img width="160" height="120"
-              src="http://img.youtube.com/vi/{{ page.video }}/0.jpg" alt="Video" />
-        <img width="160" height="120"
               src="http://img.youtube.com/vi/{{ page.video }}/1.jpg" alt="Video" />
         <img width="160" height="120"
               src="http://img.youtube.com/vi/{{ page.video }}/2.jpg" alt="Video" />
+        <img width="160" height="120"
+              src="http://img.youtube.com/vi/{{ page.video }}/3.jpg" alt="Video" />
       </p>
     {% endif %}
     <ul class="info">
