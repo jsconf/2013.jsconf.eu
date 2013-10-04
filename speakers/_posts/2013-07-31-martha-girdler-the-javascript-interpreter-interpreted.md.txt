@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/martha-girdler.jpg"
+video: iSxNCYcPAFk
 ---
 
 {% include speaker.md %}
