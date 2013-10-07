@@ -17,6 +17,7 @@ image:
   type: png
   heightSite: 200
   filename: "/speakers/images/sara-chipps.png"
+video: x3zXlPkzhgw
 ---
 
 {% include speaker.md %}
