@@ -609,17 +609,22 @@ section.video {
 }
 
 /* line 444, ../sass/imports/main.scss */
+.video_images {
+  clear: both;
+}
+
+/* line 448, ../sass/imports/main.scss */
 article {
   margin-bottom: 4.5em;
 }
-/* line 446, ../sass/imports/main.scss */
+/* line 450, ../sass/imports/main.scss */
 article header {
   margin-bottom: 1em;
   border-bottom: 0.1875em solid #c6e3d9;
 }
 
 /* fluid iframes */
-/* line 453, ../sass/imports/main.scss */
+/* line 457, ../sass/imports/main.scss */
 .embed_container {
   position: relative;
   margin-bottom: 1.5em;
@@ -629,7 +634,7 @@ article header {
   overflow: hidden;
 }
 
-/* line 463, ../sass/imports/main.scss */
+/* line 467, ../sass/imports/main.scss */
 .embed_container iframe,
 .embed_container img {
   position: absolute;
@@ -639,45 +644,45 @@ article header {
   height: 100%;
 }
 
-/* line 471, ../sass/imports/main.scss */
+/* line 475, ../sass/imports/main.scss */
 .person {
   position: relative;
   display: inline-block;
   margin-right: 2em;
 }
-/* line 475, ../sass/imports/main.scss */
+/* line 479, ../sass/imports/main.scss */
 .person span {
   position: absolute;
   bottom: 1em;
   right: 1em;
   color: #fbf6ef;
 }
-/* line 481, ../sass/imports/main.scss */
+/* line 485, ../sass/imports/main.scss */
 .person a {
   color: #fbf6ef;
 }
 
-/* line 486, ../sass/imports/main.scss */
+/* line 490, ../sass/imports/main.scss */
 .date {
   color: #74b4b0;
   font-size: .875em;
   font-style: italic;
 }
 
-/* line 493, ../sass/imports/main.scss */
+/* line 497, ../sass/imports/main.scss */
 .speaker_avatar {
   display: block;
   overflow: hidden;
   text-align: center;
 }
-/* line 497, ../sass/imports/main.scss */
+/* line 501, ../sass/imports/main.scss */
 .speaker_avatar img {
   display: inline-block;
   margin: 0 auto 1em auto;
   width: 200px;
 }
 
-/* line 506, ../sass/imports/main.scss */
+/* line 510, ../sass/imports/main.scss */
 img.sponsor {
   width: 200px;
   text-align: left;
@@ -685,7 +690,7 @@ img.sponsor {
   margin: 0 0 1em 1em;
 }
 
-/* line 514, ../sass/imports/main.scss */
+/* line 518, ../sass/imports/main.scss */
 img.sponsor-main,
 img.sponsor-no-text {
   width: 90%;
@@ -693,7 +698,7 @@ img.sponsor-no-text {
   margin-bottom: 2.5em;
 }
 
-/* line 520, ../sass/imports/main.scss */
+/* line 524, ../sass/imports/main.scss */
 .tags_homepage .extra_events {
   display: none;
 }

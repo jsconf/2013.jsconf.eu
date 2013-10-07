@@ -66,7 +66,7 @@
 
     {% unless overview %}
     {% if page.video %}
-      <p>
+      <p class="video_images">
         <img width="213" height="120"
               src="http://img.youtube.com/vi/{{ page.video }}/maxresdefault.jpg" alt="Video" />
         <img width="160" height="120"
