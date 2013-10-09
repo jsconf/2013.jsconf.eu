@@ -17,6 +17,7 @@ image:
   type: png
   heightSite: 247.3684210526316
   filename: "/speakers/images/hannes-payer.png"
+video: 3vPOlGRH6zk
 ---
 
 {% include speaker.md %}
