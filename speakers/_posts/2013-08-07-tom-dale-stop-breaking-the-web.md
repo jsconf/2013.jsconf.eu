@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/tom-dale.jpg"
+video: OSEXpsVcTxI
 ---
 
 {% include speaker.md %}
