@@ -1,4 +1,6 @@
+{% assign image_link="" %}
 {% if page.website != "" %}
+  {% assign image_link=page.website %}
   {% assign website=page.website %}
 {% elsif page.twitter != ""  %}
   {% assign website=page.twitter %}
@@ -6,6 +8,9 @@
   {% assign website=page.gplus %}
 {% elsif page.github != ""  %}
   {% assign website=page.github %}
+{% endif %}
+{% if overview %}
+  {% assign image_link=page.url %}
 {% endif %}
 
 {% include speaker_map.md %}
@@ -44,12 +49,12 @@
 
   <section class="description">
     {% if page.image %}
-    {% if website %}<a href="{{ website }}" class="speaker_avatar" target="_blank">{% else %}<span class="speaker_avatar">{% endif %}
+    {% if image_link %}<a href="{{ image_link }}" class="speaker_avatar" target="_blank">{% else %}<span class="speaker_avatar">{% endif %}
       <img src="{{ page.image.filename }}" alt="{{ page.speaker }}" width="200" height="{{ page.image.heightSite }}" itemprop="image" class="speaker" />
       {% if page.image2 %}
       <img src="{{ page.image2.filename }}" alt="{{ page.speaker }}" width="200" height="{{ page.image2.heightSite }}" itemprop="image" class="speaker" />
       {% endif %}
-    {% if website %}</a>{% else %}</span>{% endif %}
+    {% if image_link %}</a>{% else %}</span>{% endif %}
     {% endif %}
     <div itemprop="description">
       {% if overview %}
