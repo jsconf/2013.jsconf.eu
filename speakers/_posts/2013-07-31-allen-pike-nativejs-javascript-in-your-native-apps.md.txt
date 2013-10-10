@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/allen-pike.jpg"
+slides: "http://www.allenpike.com/slides/JSinNativeApps_JSConfEU2013.pdf"
+video: 5LUkHss6CAw
 ---
 
 {% include speaker.md %}
