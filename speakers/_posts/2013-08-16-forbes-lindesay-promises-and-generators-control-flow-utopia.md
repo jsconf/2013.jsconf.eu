@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/forbes-lindesay.jpg"
+video: "qbKWsbJ76-s"
+slides: http://pag.forbeslindesay.co.uk
 ---
 
 {% include speaker.md %}

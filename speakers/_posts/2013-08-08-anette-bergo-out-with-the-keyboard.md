@@ -11,12 +11,13 @@ github: ""
 gplus: ""
 from: "UK, London"
 description: "We all know that when it comes to gaming, keyboards are rubbish and gamepads are fun. Alas, for browser based games we are still stuck with the old typewriter and rodent combo.. or are we? Let's have a look at getting started with the GamepadAPI, bringing some input device fun to your browser."
-image: 
+image:
   width: 200
   height: 200
   type: jpeg
   heightSite: 200
   filename: "/speakers/images/anette-bergo.jpeg"
+video: "Y5pw-IFeZXI"
 ---
 
 {% include speaker.md %}
