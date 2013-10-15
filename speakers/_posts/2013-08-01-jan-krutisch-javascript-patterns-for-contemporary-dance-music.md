@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 299
   filename: "/speakers/images/jan-krutisch.jpg"
+video: "X41IwSyU-BM"
 ---
 
 {% include speaker.md %}
