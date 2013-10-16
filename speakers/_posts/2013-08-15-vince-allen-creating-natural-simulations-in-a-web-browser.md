@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 300
   filename: "/speakers/images/vince-allen.jpg"
+video: "5Td8KBUG034"
 ---
 
 {% include speaker.md %}
