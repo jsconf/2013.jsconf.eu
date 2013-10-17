@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/patrick-dubroy.jpg"
+video: "UqTlToUYK1E"
+slides: "https://speakerdeck.com/pdubroy/parsing-compiling-and-static-metaprogramming"
 ---
 
 {% include speaker.md %}

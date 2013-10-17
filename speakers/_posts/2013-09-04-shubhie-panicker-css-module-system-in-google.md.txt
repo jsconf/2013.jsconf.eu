@@ -17,6 +17,9 @@ image:
   type: png
   heightSite: 200
   filename: "/speakers/images/shubhie-panicker.jpg"
+video: "_MD1WQclOJM"
+slides: "https://docs.google.com/presentation/d/1_LpRI2_grOgTKyqodgg8yWGDhStgZHxnvjFOTJ6Jb3g/edit"
+
 ---
 
 {% include speaker.md %}
