@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 301.5075376884422
   filename: "/speakers/images/pam-selle.jpg"
+slides: "http://thewebivore.com/talks/jsforeveryone/#/"
+video: "nyB9GTZlKUw"
 ---
 
 {% include speaker.md %}
