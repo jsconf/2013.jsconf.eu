@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 199.34426229508196
   filename: "/speakers/images/michal-biniek.jpg"
+video: "8skJbjEh9SY"
 ---
 
 {% include speaker.md %}

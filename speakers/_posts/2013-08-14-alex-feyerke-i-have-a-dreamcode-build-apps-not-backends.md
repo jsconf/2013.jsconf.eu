@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/alex-feyerke.jpg"
+video: ARophKqA4E0
+slides: "https://speakerdeck.com/espylaub/i-have-a-dreamcode-build-apps-not-backends-jsconf-dot-eu-2013"
 ---
 
 {% include speaker.md %}
