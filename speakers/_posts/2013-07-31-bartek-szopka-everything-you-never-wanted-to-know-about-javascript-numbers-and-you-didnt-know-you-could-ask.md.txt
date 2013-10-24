@@ -17,6 +17,10 @@ image:
   type: jpeg
   heightSite: 200
   filename: "/speakers/images/bartek-szopka.jpeg"
+video: MqHDDtVYJRI
+slides: https://speakerdeck.com/bartoszopka/everything-you-never-wanted-to-know-about-javascript-numbers
+slides2: http://bartaz.github.io/ieee754-visualization/
+slides_text2: "IEEE 754 visualization"
 ---
 
 {% include speaker.md %}

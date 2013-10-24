@@ -38,6 +38,11 @@
          <a href="{{ page.slides }}" target="_blank" class="slides">
            {% if page.slides_text %}{{ page.slides_text }}{% else %}Slides{% endif %}
          </a>
+         {% if page.slides2 %}
+         – <a href="{{ page.slides2 }}" target="_blank" class="slides">
+           {% if page.slides_text2 %}{{ page.slides_text2 }}{% else %}Slides{% endif %}
+         </a>
+         {% endif %}
        {% else %}
          <span>Ping us if you have a link to the slides.</span>
        {% endif %}
