@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/tim-park.jpg"
+video: x19Qp9LoRJs
+slides: "http://www.slideshare.net/TimPark4/jsconf-eu-tim-park-pointing-forward-to-pointer-events"
 ---
 
 {% include speaker.md %}
