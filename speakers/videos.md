@@ -1,6 +1,6 @@
 ---
   layout: default
-  title: Videos of JSConf EU 2013's talks.
+  title: JavaScript conference talk videos [JSConf EU 2013]
   background: background_speakers
   tags: foo
 ---
