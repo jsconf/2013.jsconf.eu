@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/adam-baldwin.jpg"
+video: "_aUKRh74JRY"
+slides: "http://www.slideshare.net/evilpacket/security-first-adam-baldwin"
 ---
 
 {% include speaker.md %}

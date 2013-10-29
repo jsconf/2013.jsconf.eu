@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/astrid-bin.jpg"
+video: "k44lq8ImleE"
 ---
 
 {% include speaker.md %}
