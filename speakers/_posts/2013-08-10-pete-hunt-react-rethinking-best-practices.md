@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/pete-hunt.jpg"
+video: x7cQ3mrcKaY
+slides: "http://www.slideshare.net/floydophone/react-preso-v2"
 ---
 
 {% include speaker.md %}
