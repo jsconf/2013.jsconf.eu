@@ -17,6 +17,8 @@ image:
   type: png
   heightSite: 200
   filename: "/speakers/images/jon-bretman.png"
+video: Pl8ei4cug8k
+slides: "https://speakerdeck.com/jonbretman/ask-not-what-javascript-can-do-for-you"
 ---
 
 {% include speaker.md %}

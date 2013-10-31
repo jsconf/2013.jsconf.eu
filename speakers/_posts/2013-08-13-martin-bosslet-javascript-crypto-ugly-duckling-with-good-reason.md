@@ -17,6 +17,8 @@ image:
   type: jpeg
   heightSite: 150
   filename: "/speakers/images/martin-bosslet.jpeg"
+video: NjMOSg5Pe44
+slides: "https://github.com/emboss/prez/tree/master/jsconfeu%202013"
 ---
 
 {% include speaker.md %}
