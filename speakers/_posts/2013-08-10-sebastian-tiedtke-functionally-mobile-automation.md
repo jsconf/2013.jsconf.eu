@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/sebastian-tiedtke.jpg"
+video: "pPwZsi-sajk"
+slides: "https://speakerdeck.com/sourishkrout/functionally-mobile-automation"
 ---
 
 {% include speaker.md %}
