@@ -17,6 +17,8 @@ image:
   type: png
   heightSite: 200
   filename: "/speakers/images/tim-messerschmidt.png"
+video: "YTlgMXqsuhM"
+slides: http://www.slideshare.net/PayPal/open-identity-getting-to-know-your-users
 ---
 
 {% include speaker.md %}
