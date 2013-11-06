@@ -17,6 +17,8 @@ image:
   type: png
   heightSite: 200
   filename: "/speakers/images/charlie-crane.png"
+video: "NpC1GbPw-fk"
+slides: "http://www.slideshare.net/xieccy/game-server-development-in-nodejs-in-jsconf-eu"
 ---
 
 {% include speaker.md %}

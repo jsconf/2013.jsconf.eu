@@ -19,6 +19,7 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/nick-small-and-edward-ocampogooding.jpg"
+video: nkQaW0hFjcA
 ---
 
 {% include speaker.md %}
