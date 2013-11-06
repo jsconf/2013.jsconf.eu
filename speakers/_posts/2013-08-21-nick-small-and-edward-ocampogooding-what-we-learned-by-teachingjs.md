@@ -8,7 +8,7 @@ talk: What We Learned by Teaching(.js)
 website: ""
 twitter: "http://twitter.com/nciagra"
 github: "http://github.com/nickjs"
-twitter2: "http://twitter.com/edward"
+twitter2: "http://twitter.com/edwardog"
 github2: "http://github.com/edward"
 gplus: ""
 from: "Ottawa, Canada"
