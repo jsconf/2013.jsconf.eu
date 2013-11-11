@@ -17,6 +17,7 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/jason-frame.jpg"
+video: "mFo6eyEsDoA"
 ---
 
 {% include speaker.md %}
