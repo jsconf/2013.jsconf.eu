@@ -17,6 +17,8 @@ image:
   type: jpg
   heightSite: 200
   filename: "/speakers/images/simon-tennant.jpg"
+video: uwQsU0PwtaE
+slides: "https://speakerdeck.com/imaginator/the-api-is-dead-long-live-the-protocol"
 ---
 
 {% include speaker.md %}
