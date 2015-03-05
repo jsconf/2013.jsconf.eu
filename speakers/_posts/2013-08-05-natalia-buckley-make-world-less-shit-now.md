@@ -1,9 +1,9 @@
 ---
 layout: default
 tags: speaker
-title: Make world less shit. NOW. – Natalia Buckley
+title: Make world less shit. NOW. – Nat Buckley
 permalink: "/speakers/natalia-buckley-make-world-less-shit-now.html"
-speaker: Natalia Buckley
+speaker: Nat Buckley
 talk: Make world less shit. NOW.
 website: "http://ntlk.net"
 twitter: "http://twitter.com/ntlk"
